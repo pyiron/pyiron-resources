@@ -1,0 +1,8 @@
+,Config,Filename,Model,Name,Species
+0,"['pair_style eam/fs \n', 'pair_coeff * * Al-Mg.eam.fs Al Mg\n']",['nist-potentials/Al-Mg-MIM/Al-Mg.eam.fs'],EAM,Al_Mg_Mendelev_eam,"['Al', 'Mg']"
+0,"['pair_style eam/alloy \n', 'pair_coeff * * Zope-Ti-Al-2003.eam.alloy Ti Al\n']",['nist-potentials/Ti-Al-RRZ03/Zope-Ti-Al-2003.eam.alloy'],EAM,Zope_Ti_Al_2003_eam,"['Ti', 'Al']"
+0,"['pair_style eam/alloy \n', 'pair_coeff * * NiAlH_jea.eam.alloy Ni Al H\n']",['nist-potentials/Ni-Al-H-AMB/NiAlH_jea.eam.alloy'],EAM,Al_H_Ni_Angelo_eam,"['Ni', 'Al', 'H']"
+0,"['pair_style eam/fs \n', 'pair_coeff * * Fe-C_Hepburn_Ackland.eam.fs Fe C\n']",['nist-potentials/FeC-GJA/Fe-C_Hepburn_Ackland.eam.fs'],EAM,Fe_C_Hepburn_Ackland_eam,"['Fe', 'C']"
+0,"['pair_style eam/fs \n', 'pair_coeff * * Mg1.eam.fs Mg\n']",['nist-potentials/Mg-Mendelev-2015/Mg1.eam.fs'],EAM,Mg_Mendelev_eam,['Mg']
+0,"['pair_style eam/fs \n', 'pair_coeff * * Na_MendelevM_2014.eam.fs Na\n']",['nist-potentials/Na-MIM/Na_MendelevM_2014.eam.fs'],EAM,Na_Mendelev_eam,['Na']
+0,"['pair_style eam/fs \n', 'pair_coeff * * Mendelev_Cu2_2012.eam.fs Cu\n']",['nist-potentials/Cu-MIM/Mendelev_Cu2_2012.eam.fs'],EAM,Cu_Mendelev_eam,['Cu']
