@@ -1,1 +1,1 @@
-lmp_serial -in control.inp
+lmp_serial.exe -in control.inp
