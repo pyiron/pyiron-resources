@@ -1,2 +1,2 @@
 #!/bin/bash
-vasp_std
+exec vasp_std

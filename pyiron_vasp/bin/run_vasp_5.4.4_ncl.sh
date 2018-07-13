@@ -1,2 +1,2 @@
 #!/bin/bash
-vasp_ncl
+exec vasp_ncl

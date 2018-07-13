@@ -1,2 +1,2 @@
 #!/bin/bash
-vasp_gam
+exec vasp_gam

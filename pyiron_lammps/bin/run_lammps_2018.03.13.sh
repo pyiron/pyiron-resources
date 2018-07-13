@@ -1,2 +1,2 @@
 #!/bin/bash
-lmp_serial -in control.inp;
+exec lmp_serial -in control.inp;
