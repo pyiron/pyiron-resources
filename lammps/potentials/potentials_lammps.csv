@@ -298,3 +298,394 @@
 296,"['pair_style eam\n', 'pair_coeff 1 1 Cu_u3.eam\n']",['NISTiprpy/1986--Foiles-S-M--Cu--LAMMPS--ipr1/Cu_u3.eam'],NISTiprpy,1986--Foiles-S-M--Cu--LAMMPS--ipr1,['Cu']
 297,"['pair_style adp\n', 'pair_coeff * * CrNi.adp.txt Cr Ni\n']",['NISTiprpy/2018--Howells-C-A--Cr-Ni--LAMMPS--ipr1/CrNi.adp.txt'],NISTiprpy,2018--Howells-C-A--Cr-Ni--LAMMPS--ipr1,"['Cr', 'Ni']"
 298,"['pair_style vashishta\n', 'pair_coeff * * SiO.1994.vashishta Si O\n']",['NISTiprpy/1994--Nakano-A--Si-O--LAMMPS--ipr1/SiO.1994.vashishta'],NISTiprpy,1994--Nakano-A--Si-O--LAMMPS--ipr1,"['Si', 'O']"
+299,"['pair_style kim EAM_CubicNaturalSpline_AngeloMoody_1995_Ni__MO_800536961967_002\n', 'pair_coeff * * Ni\n']",[],OpenKIM,EAM_CubicNaturalSpline_AngeloMoody_1995_Ni__MO_800536961967_002,['Ni']
+300,"['pair_style kim EAM_CubicNaturalSpline_ErcolessiAdams_1994_Al__MO_800509458712_002\n', 'pair_coeff * * Al\n']",[],OpenKIM,EAM_CubicNaturalSpline_ErcolessiAdams_1994_Al__MO_800509458712_002,['Al']
+301,"['pair_style kim EAM_Dynamo_AcklandBaconCalder_1997_Fe__MO_142799717516_005\n', 'pair_coeff * * Fe\n']",[],OpenKIM,EAM_Dynamo_AcklandBaconCalder_1997_Fe__MO_142799717516_005,['Fe']
+302,"['pair_style kim EAM_Dynamo_AcklandMendelevSrolovitz_2004_FeP__MO_884343146310_005\n', 'pair_coeff * * Fe P\n']",[],OpenKIM,EAM_Dynamo_AcklandMendelevSrolovitz_2004_FeP__MO_884343146310_005,"['Fe', 'P']"
+303,"['pair_style kim EAM_Dynamo_AcklandTichyVitek_1987_Ag__MO_212700056563_005\n', 'pair_coeff * * Ag\n']",[],OpenKIM,EAM_Dynamo_AcklandTichyVitek_1987_Ag__MO_212700056563_005,['Ag']
+304,"['pair_style kim EAM_Dynamo_AcklandTichyVitek_1987_Au__MO_104891429740_005\n', 'pair_coeff * * Au\n']",[],OpenKIM,EAM_Dynamo_AcklandTichyVitek_1987_Au__MO_104891429740_005,['Au']
+305,"['pair_style kim EAM_Dynamo_AcklandTichyVitek_1987_Cu__MO_179025990738_005\n', 'pair_coeff * * Cu\n']",[],OpenKIM,EAM_Dynamo_AcklandTichyVitek_1987_Cu__MO_179025990738_005,['Cu']
+306,"['pair_style kim EAM_Dynamo_AcklandTichyVitek_1987_Ni__MO_977363131043_005\n', 'pair_coeff * * Ni\n']",[],OpenKIM,EAM_Dynamo_AcklandTichyVitek_1987_Ni__MO_977363131043_005,['Ni']
+307,"['pair_style kim EAM_Dynamo_AcklandTichyVitek_1987v2_Ag__MO_055919219575_000\n', 'pair_coeff * * Ag\n']",[],OpenKIM,EAM_Dynamo_AcklandTichyVitek_1987v2_Ag__MO_055919219575_000,['Ag']
+308,"['pair_style kim EAM_Dynamo_AcklandTichyVitek_1987v2_Cu__MO_762798677854_000\n', 'pair_coeff * * Cu\n']",[],OpenKIM,EAM_Dynamo_AcklandTichyVitek_1987v2_Cu__MO_762798677854_000,['Cu']
+309,"['pair_style kim EAM_Dynamo_AcklandTichyVitek_1987v2_Ni__MO_769632475533_000\n', 'pair_coeff * * Ni\n']",[],OpenKIM,EAM_Dynamo_AcklandTichyVitek_1987v2_Ni__MO_769632475533_000,['Ni']
+310,"['pair_style kim EAM_Dynamo_AcklandVitek_1990_Cu__MO_642748370624_000\n', 'pair_coeff * * Cu\n']",[],OpenKIM,EAM_Dynamo_AcklandVitek_1990_Cu__MO_642748370624_000,['Cu']
+311,"['pair_style kim EAM_Dynamo_AcklandWoodingBacon_1995v2_Zr__MO_398441626455_000\n', 'pair_coeff * * Zr\n']",[],OpenKIM,EAM_Dynamo_AcklandWoodingBacon_1995v2_Zr__MO_398441626455_000,['Zr']
+312,"['pair_style kim EAM_Dynamo_Ackland_1987_Au__MO_754413982908_000\n', 'pair_coeff * * Au\n']",[],OpenKIM,EAM_Dynamo_Ackland_1987_Au__MO_754413982908_000,['Au']
+313,"['pair_style kim EAM_Dynamo_Ackland_1992_Ti__MO_748534961139_005\n', 'pair_coeff * * Ti\n']",[],OpenKIM,EAM_Dynamo_Ackland_1992_Ti__MO_748534961139_005,['Ti']
+314,"['pair_style kim EAM_Dynamo_Ackland_2003_W__MO_141627196590_005\n', 'pair_coeff * * W\n']",[],OpenKIM,EAM_Dynamo_Ackland_2003_W__MO_141627196590_005,['W']
+315,"['pair_style kim EAM_Dynamo_AdamsFoilesWolfer_1989Universal6_Ag__MO_681640899874_000\n', 'pair_coeff * * Ag\n']",[],OpenKIM,EAM_Dynamo_AdamsFoilesWolfer_1989Universal6_Ag__MO_681640899874_000,['Ag']
+316,"['pair_style kim EAM_Dynamo_AdamsFoilesWolfer_1989Universal6_Cu__MO_145873824897_000\n', 'pair_coeff * * Cu\n']",[],OpenKIM,EAM_Dynamo_AdamsFoilesWolfer_1989Universal6_Cu__MO_145873824897_000,['Cu']
+317,"['pair_style kim EAM_Dynamo_AdamsFoilesWolfer_1989Universal6_Ni__MO_258836200237_000\n', 'pair_coeff * * Ni\n']",[],OpenKIM,EAM_Dynamo_AdamsFoilesWolfer_1989Universal6_Ni__MO_258836200237_000,['Ni']
+318,"['pair_style kim EAM_Dynamo_AdamsFoilesWolfer_1989Universal6_Pd__MO_169076431435_000\n', 'pair_coeff * * Pd\n']",[],OpenKIM,EAM_Dynamo_AdamsFoilesWolfer_1989Universal6_Pd__MO_169076431435_000,['Pd']
+319,"['pair_style kim EAM_Dynamo_AdamsFoilesWolfer_1989Universal6_Pt__MO_388062184209_000\n', 'pair_coeff * * Pt\n']",[],OpenKIM,EAM_Dynamo_AdamsFoilesWolfer_1989Universal6_Pt__MO_388062184209_000,['Pt']
+320,"['pair_style kim EAM_Dynamo_AdamsFoilesWolfer_1989_Au__MO_087738844640_000\n', 'pair_coeff * * Au\n']",[],OpenKIM,EAM_Dynamo_AdamsFoilesWolfer_1989_Au__MO_087738844640_000,['Au']
+321,"['pair_style kim EAM_Dynamo_AgrawalMishraWard_2013_Be__MO_404563086984_000\n', 'pair_coeff * * Be\n']",[],OpenKIM,EAM_Dynamo_AgrawalMishraWard_2013_Be__MO_404563086984_000,['Be']
+322,"['pair_style kim EAM_Dynamo_AngeloMoodyBaskes_1995_NiAlH__MO_418978237058_005\n', 'pair_coeff * * Ni Al H\n']",[],OpenKIM,EAM_Dynamo_AngeloMoodyBaskes_1995_NiAlH__MO_418978237058_005,"['Ni', 'Al', 'H']"
+323,"['pair_style kim EAM_Dynamo_BonnyBakaevTerentyev_2017_WRe__MO_234187151804_000\n', 'pair_coeff * * W Re\n']",[],OpenKIM,EAM_Dynamo_BonnyBakaevTerentyev_2017_WRe__MO_234187151804_000,"['W', 'Re']"
+324,"['pair_style kim EAM_Dynamo_BonnyCastinBullens_2013_FeW__MO_737567242631_000\n', 'pair_coeff * * Fe W\n']",[],OpenKIM,EAM_Dynamo_BonnyCastinBullens_2013_FeW__MO_737567242631_000,"['Fe', 'W']"
+325,"['pair_style kim EAM_Dynamo_BonnyCastinTerentyev_2013_FeNiCr__MO_763197941039_000\n', 'pair_coeff * * Fe Ni Cr\n']",[],OpenKIM,EAM_Dynamo_BonnyCastinTerentyev_2013_FeNiCr__MO_763197941039_000,"['Fe', 'Ni', 'Cr']"
+326,"['pair_style kim EAM_Dynamo_BonnyPasianotCastin_2009_FeCuNi__MO_469343973171_005\n', 'pair_coeff * * Fe Cu Ni\n']",[],OpenKIM,EAM_Dynamo_BonnyPasianotCastin_2009_FeCuNi__MO_469343973171_005,"['Fe', 'Cu', 'Ni']"
+327,"['pair_style kim EAM_Dynamo_BonnyPasianotMalerba_2009_FeNi__MO_267721408934_005\n', 'pair_coeff * * Fe Ni\n']",[],OpenKIM,EAM_Dynamo_BonnyPasianotMalerba_2009_FeNi__MO_267721408934_005,"['Fe', 'Ni']"
+328,"['pair_style kim EAM_Dynamo_BonnyTerentyev_2014EAM1_W__MO_292520929154_000\n', 'pair_coeff * * W\n']",[],OpenKIM,EAM_Dynamo_BonnyTerentyev_2014EAM1_W__MO_292520929154_000,['W']
+329,"['pair_style kim EAM_Dynamo_BonnyTerentyev_2014EAM2_W__MO_626183701337_000\n', 'pair_coeff * * W\n']",[],OpenKIM,EAM_Dynamo_BonnyTerentyev_2014EAM2_W__MO_626183701337_000,['W']
+330,"['pair_style kim EAM_Dynamo_BorovikovMendelevKing_2016_CuZr__MO_097471813275_000\n', 'pair_coeff * * Cu Zr\n']",[],OpenKIM,EAM_Dynamo_BorovikovMendelevKing_2016_CuZr__MO_097471813275_000,"['Cu', 'Zr']"
+331,"['pair_style kim EAM_Dynamo_CaiYe_1996_AlCu__MO_942551040047_005\n', 'pair_coeff * * Al Cu\n']",[],OpenKIM,EAM_Dynamo_CaiYe_1996_AlCu__MO_942551040047_005,"['Al', 'Cu']"
+332,"['pair_style kim EAM_Dynamo_ChamatiPapanicolaouMishin_2006_Fe__MO_960699513424_000\n', 'pair_coeff * * Fe\n']",[],OpenKIM,EAM_Dynamo_ChamatiPapanicolaouMishin_2006_Fe__MO_960699513424_000,['Fe']
+333,"['pair_style kim EAM_Dynamo_ErcolessiAdams_1994_Al__MO_123629422045_005\n', 'pair_coeff * * Al\n']",[],OpenKIM,EAM_Dynamo_ErcolessiAdams_1994_Al__MO_123629422045_005,['Al']
+334,"['pair_style kim EAM_Dynamo_FarkasJones_1996_NbTiAl__MO_042691367780_000\n', 'pair_coeff * * Nb Ti Al\n']",[],OpenKIM,EAM_Dynamo_FarkasJones_1996_NbTiAl__MO_042691367780_000,"['Nb', 'Ti', 'Al']"
+335,"['pair_style kim EAM_Dynamo_FellingerParkWilkins_2010_Nb__MO_102133002179_005\n', 'pair_coeff * * Nb\n']",[],OpenKIM,EAM_Dynamo_FellingerParkWilkins_2010_Nb__MO_102133002179_005,['Nb']
+336,"['pair_style kim EAM_Dynamo_FoilesBaskesDaw_1986Universal3_Ag__MO_626948998302_000\n', 'pair_coeff * * Ag\n']",[],OpenKIM,EAM_Dynamo_FoilesBaskesDaw_1986Universal3_Ag__MO_626948998302_000,['Ag']
+337,"['pair_style kim EAM_Dynamo_FoilesBaskesDaw_1986Universal3_Au__MO_559016907324_000\n', 'pair_coeff * * Au\n']",[],OpenKIM,EAM_Dynamo_FoilesBaskesDaw_1986Universal3_Au__MO_559016907324_000,['Au']
+338,"['pair_style kim EAM_Dynamo_FoilesBaskesDaw_1986Universal3_Cu__MO_666348409573_004\n', 'pair_coeff * * Cu\n']",[],OpenKIM,EAM_Dynamo_FoilesBaskesDaw_1986Universal3_Cu__MO_666348409573_004,['Cu']
+339,"['pair_style kim EAM_Dynamo_FoilesBaskesDaw_1986Universal3_Ni__MO_580571659842_000\n', 'pair_coeff * * Ni\n']",[],OpenKIM,EAM_Dynamo_FoilesBaskesDaw_1986Universal3_Ni__MO_580571659842_000,['Ni']
+340,"['pair_style kim EAM_Dynamo_FoilesBaskesDaw_1986Universal3_Pd__MO_786012902615_000\n', 'pair_coeff * * Pd\n']",[],OpenKIM,EAM_Dynamo_FoilesBaskesDaw_1986Universal3_Pd__MO_786012902615_000,['Pd']
+341,"['pair_style kim EAM_Dynamo_FoilesBaskesDaw_1986Universal3_Pt__MO_757342646688_000\n', 'pair_coeff * * Pt\n']",[],OpenKIM,EAM_Dynamo_FoilesBaskesDaw_1986Universal3_Pt__MO_757342646688_000,['Pt']
+342,"['pair_style kim EAM_Dynamo_Foiles_1985_Cu__MO_831121933939_000\n', 'pair_coeff * * Cu\n']",[],OpenKIM,EAM_Dynamo_Foiles_1985_Cu__MO_831121933939_000,['Cu']
+343,"['pair_style kim EAM_Dynamo_Foiles_1985_Ni__MO_010059867259_000\n', 'pair_coeff * * Ni\n']",[],OpenKIM,EAM_Dynamo_Foiles_1985_Ni__MO_010059867259_000,['Ni']
+344,"['pair_style kim EAM_Dynamo_FortiniMendelevBuldyrev_2008_Ru__MO_114077951467_005\n', 'pair_coeff * * Ru\n']",[],OpenKIM,EAM_Dynamo_FortiniMendelevBuldyrev_2008_Ru__MO_114077951467_005,['Ru']
+345,"['pair_style kim EAM_Dynamo_GrocholaRusso_2005_Au__MO_557267801129_000\n', 'pair_coeff * * Au\n']",[],OpenKIM,EAM_Dynamo_GrocholaRusso_2005_Au__MO_557267801129_000,['Au']
+346,"['pair_style kim EAM_Dynamo_HaleWongZimmerman_2008PairHybrid_PdAgH__MO_104806802344_005\n', 'pair_coeff * * Pd Ag H\n']",[],OpenKIM,EAM_Dynamo_HaleWongZimmerman_2008PairHybrid_PdAgH__MO_104806802344_005,"['Pd', 'Ag', 'H']"
+347,"['pair_style kim EAM_Dynamo_HaleWongZimmerman_2008PairMorse_PdAgH__MO_108983864770_005\n', 'pair_coeff * * Pd Ag H\n']",[],OpenKIM,EAM_Dynamo_HaleWongZimmerman_2008PairMorse_PdAgH__MO_108983864770_005,"['Pd', 'Ag', 'H']"
+348,"['pair_style kim EAM_Dynamo_HanZepedaAckland_2003_V__MO_411020944797_000\n', 'pair_coeff * * V\n']",[],OpenKIM,EAM_Dynamo_HanZepedaAckland_2003_V__MO_411020944797_000,['V']
+349,"['pair_style kim EAM_Dynamo_HanZepedaAckland_2003_W__MO_286137913440_000\n', 'pair_coeff * * W\n']",[],OpenKIM,EAM_Dynamo_HanZepedaAckland_2003_W__MO_286137913440_000,['W']
+350,"['pair_style kim EAM_Dynamo_HepburnAckland_2008_FeC__MO_143977152728_005\n', 'pair_coeff * * Fe C\n']",[],OpenKIM,EAM_Dynamo_HepburnAckland_2008_FeC__MO_143977152728_005,"['Fe', 'C']"
+351,"['pair_style kim EAM_Dynamo_HoytGarvinWebb_2003_PbCu__MO_119135752160_005\n', 'pair_coeff * * Pb Cu\n']",[],OpenKIM,EAM_Dynamo_HoytGarvinWebb_2003_PbCu__MO_119135752160_005,"['Pb', 'Cu']"
+352,"['pair_style kim EAM_Dynamo_JacobsenNorskovPuska_1987_Al__MO_411692133366_000\n', 'pair_coeff * * Al\n']",[],OpenKIM,EAM_Dynamo_JacobsenNorskovPuska_1987_Al__MO_411692133366_000,['Al']
+353,"['pair_style kim EAM_Dynamo_LandaWynblattSiegel_2000_AlPb__MO_699137396381_005\n', 'pair_coeff * * Al Pb\n']",[],OpenKIM,EAM_Dynamo_LandaWynblattSiegel_2000_AlPb__MO_699137396381_005,"['Al', 'Pb']"
+354,"['pair_style kim EAM_Dynamo_LiSiegelAdams_2003_Ta__MO_103054252769_005\n', 'pair_coeff * * Ta\n']",[],OpenKIM,EAM_Dynamo_LiSiegelAdams_2003_Ta__MO_103054252769_005,['Ta']
+355,"['pair_style kim EAM_Dynamo_LiuAdams_1998_AlMg__MO_019873715786_000\n', 'pair_coeff * * Al Mg\n']",[],OpenKIM,EAM_Dynamo_LiuAdams_1998_AlMg__MO_019873715786_000,"['Al', 'Mg']"
+356,"['pair_style kim EAM_Dynamo_LiuErcolessiAdams_2004_Al__MO_051157671505_000\n', 'pair_coeff * * Al\n']",[],OpenKIM,EAM_Dynamo_LiuErcolessiAdams_2004_Al__MO_051157671505_000,['Al']
+357,"['pair_style kim EAM_Dynamo_LiuLiuBorucki_1999_AlCu__MO_020851069572_000\n', 'pair_coeff * * Al Cu\n']",[],OpenKIM,EAM_Dynamo_LiuLiuBorucki_1999_AlCu__MO_020851069572_000,"['Al', 'Cu']"
+358,"['pair_style kim EAM_Dynamo_LiuOhotnickyAdams_1997_AlMg__MO_559870613549_000\n', 'pair_coeff * * Al Mg\n']",[],OpenKIM,EAM_Dynamo_LiuOhotnickyAdams_1997_AlMg__MO_559870613549_000,"['Al', 'Mg']"
+359,"['pair_style kim EAM_Dynamo_MarinicaVentelonGilbert_2013EAM2_W__MO_204305659515_000\n', 'pair_coeff * * W\n']",[],OpenKIM,EAM_Dynamo_MarinicaVentelonGilbert_2013EAM2_W__MO_204305659515_000,['W']
+360,"['pair_style kim EAM_Dynamo_MarinicaVentelonGilbert_2013EAM3_W__MO_706622909913_000\n', 'pair_coeff * * W\n']",[],OpenKIM,EAM_Dynamo_MarinicaVentelonGilbert_2013EAM3_W__MO_706622909913_000,['W']
+361,[],[],OpenKIM,EAM_Dynamo_MarinicaVentelonGilbert_2013EAM4__MO_046576227003_000,[]
+362,"['pair_style kim EAM_Dynamo_Marinica_2007_Fe__MO_466808877130_000\n', 'pair_coeff * * Fe\n']",[],OpenKIM,EAM_Dynamo_Marinica_2007_Fe__MO_466808877130_000,['Fe']
+363,"['pair_style kim EAM_Dynamo_Marinica_2011_Fe__MO_255315407910_000\n', 'pair_coeff * * Fe\n']",[],OpenKIM,EAM_Dynamo_Marinica_2011_Fe__MO_255315407910_000,['Fe']
+364,"['pair_style kim EAM_Dynamo_MendelevAckland_2007_Zr__MO_537826574817_000\n', 'pair_coeff * * Zr\n']",[],OpenKIM,EAM_Dynamo_MendelevAckland_2007_Zr__MO_537826574817_000,['Zr']
+365,"['pair_style kim EAM_Dynamo_MendelevAckland_2007v3_Zr__MO_004835508849_000\n', 'pair_coeff * * Zr\n']",[],OpenKIM,EAM_Dynamo_MendelevAckland_2007v3_Zr__MO_004835508849_000,['Zr']
+366,"['pair_style kim EAM_Dynamo_MendelevAstaRahman_2009_AlMg__MO_658278549784_005\n', 'pair_coeff * * Al Mg\n']",[],OpenKIM,EAM_Dynamo_MendelevAstaRahman_2009_AlMg__MO_658278549784_005,"['Al', 'Mg']"
+367,"['pair_style kim EAM_Dynamo_MendelevFangYe_2015_AlSm__MO_338600200739_000\n', 'pair_coeff * * Al Sm\n']",[],OpenKIM,EAM_Dynamo_MendelevFangYe_2015_AlSm__MO_338600200739_000,"['Al', 'Sm']"
+368,"['pair_style kim EAM_Dynamo_MendelevHanSon_2007_VFe__MO_249706810527_005\n', 'pair_coeff * * V Fe\n']",[],OpenKIM,EAM_Dynamo_MendelevHanSon_2007_VFe__MO_249706810527_005,"['V', 'Fe']"
+369,"['pair_style kim EAM_Dynamo_MendelevHanSrolovitz_2003Potential2_Fe__MO_769582363439_005\n', 'pair_coeff * * Fe\n']",[],OpenKIM,EAM_Dynamo_MendelevHanSrolovitz_2003Potential2_Fe__MO_769582363439_005,['Fe']
+370,"['pair_style kim EAM_Dynamo_MendelevHanSrolovitz_2003Potential5_Fe__MO_942420706858_005\n', 'pair_coeff * * Fe\n']",[],OpenKIM,EAM_Dynamo_MendelevHanSrolovitz_2003Potential5_Fe__MO_942420706858_005,['Fe']
+371,"['pair_style kim EAM_Dynamo_MendelevHanSrolovitz_2003_Fe__MO_807997826449_000\n', 'pair_coeff * * Fe\n']",[],OpenKIM,EAM_Dynamo_MendelevHanSrolovitz_2003_Fe__MO_807997826449_000,['Fe']
+372,"['pair_style kim EAM_Dynamo_MendelevKing_2008_Cu__MO_748636486270_005\n', 'pair_coeff * * Cu\n']",[],OpenKIM,EAM_Dynamo_MendelevKing_2008_Cu__MO_748636486270_005,['Cu']
+373,"['pair_style kim EAM_Dynamo_MendelevKramerBecker_2008_Al__MO_106969701023_005\n', 'pair_coeff * * Al\n']",[],OpenKIM,EAM_Dynamo_MendelevKramerBecker_2008_Al__MO_106969701023_005,['Al']
+374,"['pair_style kim EAM_Dynamo_MendelevKramerBecker_2008_Cu__MO_945691923444_005\n', 'pair_coeff * * Cu\n']",[],OpenKIM,EAM_Dynamo_MendelevKramerBecker_2008_Cu__MO_945691923444_005,['Cu']
+375,"['pair_style kim EAM_Dynamo_MendelevKramerHao_2012_NiZr__MO_149104665840_005\n', 'pair_coeff * * Ni Zr\n']",[],OpenKIM,EAM_Dynamo_MendelevKramerHao_2012_NiZr__MO_149104665840_005,"['Ni', 'Zr']"
+376,"['pair_style kim EAM_Dynamo_MendelevKramerHao_2012_Ni__MO_832600236922_005\n', 'pair_coeff * * Ni\n']",[],OpenKIM,EAM_Dynamo_MendelevKramerHao_2012_Ni__MO_832600236922_005,['Ni']
+377,"['pair_style kim EAM_Dynamo_MendelevKramerOtt_2009_CuZr__MO_600021860456_005\n', 'pair_coeff * * Cu Zr\n']",[],OpenKIM,EAM_Dynamo_MendelevKramerOtt_2009_CuZr__MO_600021860456_005,"['Cu', 'Zr']"
+378,"['pair_style kim EAM_Dynamo_MendelevSordeletKramer_2007_CuZr__MO_120596890176_005\n', 'pair_coeff * * Cu Zr\n']",[],OpenKIM,EAM_Dynamo_MendelevSordeletKramer_2007_CuZr__MO_120596890176_005,"['Cu', 'Zr']"
+379,"['pair_style kim EAM_Dynamo_MendelevSrolovitzAckland_2005_AlFe__MO_577453891941_005\n', 'pair_coeff * * Al Fe\n']",[],OpenKIM,EAM_Dynamo_MendelevSrolovitzAckland_2005_AlFe__MO_577453891941_005,"['Al', 'Fe']"
+380,"['pair_style kim EAM_Dynamo_Mendelev_2003_Fe__MO_546673549085_000\n', 'pair_coeff * * Fe\n']",[],OpenKIM,EAM_Dynamo_Mendelev_2003_Fe__MO_546673549085_000,['Fe']
+381,"['pair_style kim EAM_Dynamo_Mendelev_2007_Zr__MO_848899341753_000\n', 'pair_coeff * * Zr\n']",[],OpenKIM,EAM_Dynamo_Mendelev_2007_Zr__MO_848899341753_000,['Zr']
+382,"['pair_style kim EAM_Dynamo_Mendelev_2015_Na__MO_094065024556_000\n', 'pair_coeff * * Na\n']",[],OpenKIM,EAM_Dynamo_Mendelev_2015_Na__MO_094065024556_000,['Na']
+383,"['pair_style kim EAM_Dynamo_Mendelev_2018_Tb__MO_522239651961_000\n', 'pair_coeff * * Tb\n']",[],OpenKIM,EAM_Dynamo_Mendelev_2018_Tb__MO_522239651961_000,['Tb']
+384,"['pair_style kim EAM_Dynamo_MishinFarkasMehl_1999_Al__MO_651801486679_005\n', 'pair_coeff * * Al\n']",[],OpenKIM,EAM_Dynamo_MishinFarkasMehl_1999_Al__MO_651801486679_005,['Al']
+385,"['pair_style kim EAM_Dynamo_MishinFarkasMehl_1999_Ni__MO_400591584784_005\n', 'pair_coeff * * Ni\n']",[],OpenKIM,EAM_Dynamo_MishinFarkasMehl_1999_Ni__MO_400591584784_005,['Ni']
+386,"['pair_style kim EAM_Dynamo_MishinMehlPapaconstantopoulos_2001_Cu__MO_346334655118_005\n', 'pair_coeff * * Cu\n']",[],OpenKIM,EAM_Dynamo_MishinMehlPapaconstantopoulos_2001_Cu__MO_346334655118_005,['Cu']
+387,"['pair_style kim EAM_Dynamo_MishinMehlPapaconstantopoulos_2002_NiAl__MO_109933561507_005\n', 'pair_coeff * * Ni Al\n']",[],OpenKIM,EAM_Dynamo_MishinMehlPapaconstantopoulos_2002_NiAl__MO_109933561507_005,"['Ni', 'Al']"
+388,"['pair_style kim EAM_Dynamo_Mishin_2004_NiAl__MO_101214310689_005\n', 'pair_coeff * * Ni Al\n']",[],OpenKIM,EAM_Dynamo_Mishin_2004_NiAl__MO_101214310689_005,"['Ni', 'Al']"
+389,"['pair_style kim EAM_Dynamo_NicholAckland_2016_Na__MO_048172193005_000\n', 'pair_coeff * * Na\n']",[],OpenKIM,EAM_Dynamo_NicholAckland_2016_Na__MO_048172193005_000,['Na']
+390,"['pair_style kim EAM_Dynamo_NicholAckland_2016v2_Cs__MO_144828415103_000\n', 'pair_coeff * * Cs\n']",[],OpenKIM,EAM_Dynamo_NicholAckland_2016v2_Cs__MO_144828415103_000,['Cs']
+391,"['pair_style kim EAM_Dynamo_NicholAckland_2016v2_Rb__MO_874930365376_000\n', 'pair_coeff * * Rb\n']",[],OpenKIM,EAM_Dynamo_NicholAckland_2016v2_Rb__MO_874930365376_000,['Rb']
+392,"['pair_style kim EAM_Dynamo_OBrienBarrPrice_2018_PtAu__MO_946831081299_000\n', 'pair_coeff * * Pt Au\n']",[],OpenKIM,EAM_Dynamo_OBrienBarrPrice_2018_PtAu__MO_946831081299_000,"['Pt', 'Au']"
+393,"['pair_style kim EAM_Dynamo_Olsson_2010_Au__MO_228280943430_000\n', 'pair_coeff * * Au\n']",[],OpenKIM,EAM_Dynamo_Olsson_2010_Au__MO_228280943430_000,['Au']
+394,"['pair_style kim EAM_Dynamo_OnatDurukanoglu_2014_CuNi__MO_592013496703_005\n', 'pair_coeff * * Cu Ni\n']",[],OpenKIM,EAM_Dynamo_OnatDurukanoglu_2014_CuNi__MO_592013496703_005,"['Cu', 'Ni']"
+395,"['pair_style kim EAM_Dynamo_PunMishin_2009_NiAl__MO_751354403791_005\n', 'pair_coeff * * Ni Al\n']",[],OpenKIM,EAM_Dynamo_PunMishin_2009_NiAl__MO_751354403791_005,"['Ni', 'Al']"
+396,"['pair_style kim EAM_Dynamo_PunMishin_2012_Co__MO_885079680379_005\n', 'pair_coeff * * Co\n']",[],OpenKIM,EAM_Dynamo_PunMishin_2012_Co__MO_885079680379_005,['Co']
+397,"['pair_style kim EAM_Dynamo_PunYamakovMishin_2013_AlCo__MO_678952612413_000\n', 'pair_coeff * * Al Co\n']",[],OpenKIM,EAM_Dynamo_PunYamakovMishin_2013_AlCo__MO_678952612413_000,"['Al', 'Co']"
+398,"['pair_style kim EAM_Dynamo_PunYamakovMishin_2013_NiAlCo__MO_826591359508_000\n', 'pair_coeff * * Ni Al Co\n']",[],OpenKIM,EAM_Dynamo_PunYamakovMishin_2013_NiAlCo__MO_826591359508_000,"['Ni', 'Al', 'Co']"
+399,"['pair_style kim EAM_Dynamo_PunYamakovMishin_2015_NiCo__MO_010613863288_000\n', 'pair_coeff * * Ni Co\n']",[],OpenKIM,EAM_Dynamo_PunYamakovMishin_2015_NiCo__MO_010613863288_000,"['Ni', 'Co']"
+400,"['pair_style kim EAM_Dynamo_Pun_2017_Au__MO_188701096956_000\n', 'pair_coeff * * Au\n']",[],OpenKIM,EAM_Dynamo_Pun_2017_Au__MO_188701096956_000,['Au']
+401,"['pair_style kim EAM_Dynamo_RaveloGermannGuerrero_2013Ta1_Ta__MO_816821594689_000\n', 'pair_coeff * * Ta\n']",[],OpenKIM,EAM_Dynamo_RaveloGermannGuerrero_2013Ta1_Ta__MO_816821594689_000,['Ta']
+402,"['pair_style kim EAM_Dynamo_RaveloGermannGuerrero_2013Ta2_Ta__MO_330376344314_000\n', 'pair_coeff * * Ta\n']",[],OpenKIM,EAM_Dynamo_RaveloGermannGuerrero_2013Ta2_Ta__MO_330376344314_000,['Ta']
+403,"['pair_style kim EAM_Dynamo_SchopfBrommerFrigan_2012_AlMnPd__MO_137572817842_000\n', 'pair_coeff * * Al Mn Pd\n']",[],OpenKIM,EAM_Dynamo_SchopfBrommerFrigan_2012_AlMnPd__MO_137572817842_000,"['Al', 'Mn', 'Pd']"
+404,"['pair_style kim EAM_Dynamo_SmirnovaKuskinStarikov_2013_UMoXe__MO_679329885632_005\n', 'pair_coeff * * U Mo Xe\n']",[],OpenKIM,EAM_Dynamo_SmirnovaKuskinStarikov_2013_UMoXe__MO_679329885632_005,"['U', 'Mo', 'Xe']"
+405,"['pair_style kim EAM_Dynamo_SmirnovaStarikovStegailov_2012_U__MO_649864794085_000\n', 'pair_coeff * * U\n']",[],OpenKIM,EAM_Dynamo_SmirnovaStarikovStegailov_2012_U__MO_649864794085_000,['U']
+406,"['pair_style kim EAM_Dynamo_SturgeonLaird_2000_Al__MO_120808805541_005\n', 'pair_coeff * * Al\n']",[],OpenKIM,EAM_Dynamo_SturgeonLaird_2000_Al__MO_120808805541_005,['Al']
+407,"['pair_style kim EAM_Dynamo_SunMendelevBecker_2006_Mg__MO_848345414202_005\n', 'pair_coeff * * Mg\n']",[],OpenKIM,EAM_Dynamo_SunMendelevBecker_2006_Mg__MO_848345414202_005,['Mg']
+408,"['pair_style kim EAM_Dynamo_TehranchiCurtin_2010_NiH__MO_535504325462_003\n', 'pair_coeff * * Ni H\n']",[],OpenKIM,EAM_Dynamo_TehranchiCurtin_2010_NiH__MO_535504325462_003,"['Ni', 'H']"
+409,"['pair_style kim EAM_Dynamo_VailheFarkas_1997_CoAl__MO_284963179498_005\n', 'pair_coeff * * Co Al\n']",[],OpenKIM,EAM_Dynamo_VailheFarkas_1997_CoAl__MO_284963179498_005,"['Co', 'Al']"
+410,"['pair_style kim EAM_Dynamo_WilliamsMishinHamilton_2006_Ag__MO_131620013077_005\n', 'pair_coeff * * Ag\n']",[],OpenKIM,EAM_Dynamo_WilliamsMishinHamilton_2006_Ag__MO_131620013077_005,['Ag']
+411,"['pair_style kim EAM_Dynamo_WilliamsMishinHamilton_2006_CuAg__MO_128703483589_005\n', 'pair_coeff * * Cu Ag\n']",[],OpenKIM,EAM_Dynamo_WilliamsMishinHamilton_2006_CuAg__MO_128703483589_005,"['Cu', 'Ag']"
+412,"['pair_style kim EAM_Dynamo_WilsonMendelev_2015_NiZr__MO_306032198193_000\n', 'pair_coeff * * Ni Zr\n']",[],OpenKIM,EAM_Dynamo_WilsonMendelev_2015_NiZr__MO_306032198193_000,"['Ni', 'Zr']"
+413,"['pair_style kim EAM_Dynamo_WilsonMendelev_2016_Mg__MO_574574915905_000\n', 'pair_coeff * * Mg\n']",[],OpenKIM,EAM_Dynamo_WilsonMendelev_2016_Mg__MO_574574915905_000,['Mg']
+414,"['pair_style kim EAM_Dynamo_WineyKubotaGupta_2010_Al__MO_149316865608_005\n', 'pair_coeff * * Al\n']",[],OpenKIM,EAM_Dynamo_WineyKubotaGupta_2010_Al__MO_149316865608_005,['Al']
+415,"['pair_style kim EAM_Dynamo_WuTrinkle_2009_CuAg__MO_270337113239_005\n', 'pair_coeff * * Cu Ag\n']",[],OpenKIM,EAM_Dynamo_WuTrinkle_2009_CuAg__MO_270337113239_005,"['Cu', 'Ag']"
+416,"['pair_style kim EAM_Dynamo_Zhakhovsky_2009_Al__MO_519613893196_000\n', 'pair_coeff * * Al\n']",[],OpenKIM,EAM_Dynamo_Zhakhovsky_2009_Al__MO_519613893196_000,['Al']
+417,"['pair_style kim EAM_Dynamo_Zhakhovsky_2009_Au__MO_173248269481_000\n', 'pair_coeff * * Au\n']",[],OpenKIM,EAM_Dynamo_Zhakhovsky_2009_Au__MO_173248269481_000,['Au']
+418,"['pair_style kim EAM_Dynamo_ZhangAshcraftMendelev_2016_NiNb__MO_047308317761_000\n', 'pair_coeff * * Ni Nb\n']",[],OpenKIM,EAM_Dynamo_ZhangAshcraftMendelev_2016_NiNb__MO_047308317761_000,"['Ni', 'Nb']"
+419,"['pair_style kim EAM_Dynamo_ZhouJohnsonWadley_2004NISTretabulation_CuAgAu__MO_318213562153_000\n', 'pair_coeff * * Cu Ag Au\n']",[],OpenKIM,EAM_Dynamo_ZhouJohnsonWadley_2004NISTretabulation_CuAgAu__MO_318213562153_000,"['Cu', 'Ag', 'Au']"
+420,"['pair_style kim EAM_Dynamo_ZhouJohnsonWadley_2004_Ag__MO_947112899505_005\n', 'pair_coeff * * Ag\n']",[],OpenKIM,EAM_Dynamo_ZhouJohnsonWadley_2004_Ag__MO_947112899505_005,['Ag']
+421,"['pair_style kim EAM_Dynamo_ZhouJohnsonWadley_2004_Al__MO_131650261510_005\n', 'pair_coeff * * Al\n']",[],OpenKIM,EAM_Dynamo_ZhouJohnsonWadley_2004_Al__MO_131650261510_005,['Al']
+422,"['pair_style kim EAM_Dynamo_ZhouJohnsonWadley_2004_Au__MO_468407568810_005\n', 'pair_coeff * * Au\n']",[],OpenKIM,EAM_Dynamo_ZhouJohnsonWadley_2004_Au__MO_468407568810_005,['Au']
+423,"['pair_style kim EAM_Dynamo_ZhouJohnsonWadley_2004_Co__MO_924630542818_005\n', 'pair_coeff * * Co\n']",[],OpenKIM,EAM_Dynamo_ZhouJohnsonWadley_2004_Co__MO_924630542818_005,['Co']
+424,"['pair_style kim EAM_Dynamo_ZhouJohnsonWadley_2004_Cu__MO_127245782811_005\n', 'pair_coeff * * Cu\n']",[],OpenKIM,EAM_Dynamo_ZhouJohnsonWadley_2004_Cu__MO_127245782811_005,['Cu']
+425,"['pair_style kim EAM_Dynamo_ZhouJohnsonWadley_2004_Fe__MO_650279905230_005\n', 'pair_coeff * * Fe\n']",[],OpenKIM,EAM_Dynamo_ZhouJohnsonWadley_2004_Fe__MO_650279905230_005,['Fe']
+426,"['pair_style kim EAM_Dynamo_ZhouJohnsonWadley_2004_Mg__MO_137404467969_005\n', 'pair_coeff * * Mg\n']",[],OpenKIM,EAM_Dynamo_ZhouJohnsonWadley_2004_Mg__MO_137404467969_005,['Mg']
+427,"['pair_style kim EAM_Dynamo_ZhouJohnsonWadley_2004_Mo__MO_271256517527_005\n', 'pair_coeff * * Mo\n']",[],OpenKIM,EAM_Dynamo_ZhouJohnsonWadley_2004_Mo__MO_271256517527_005,['Mo']
+428,"['pair_style kim EAM_Dynamo_ZhouJohnsonWadley_2004_Ni__MO_110256178378_005\n', 'pair_coeff * * Ni\n']",[],OpenKIM,EAM_Dynamo_ZhouJohnsonWadley_2004_Ni__MO_110256178378_005,['Ni']
+429,"['pair_style kim EAM_Dynamo_ZhouJohnsonWadley_2004_Pb__MO_116920074573_005\n', 'pair_coeff * * Pb\n']",[],OpenKIM,EAM_Dynamo_ZhouJohnsonWadley_2004_Pb__MO_116920074573_005,['Pb']
+430,"['pair_style kim EAM_Dynamo_ZhouJohnsonWadley_2004_Ta__MO_130046220009_005\n', 'pair_coeff * * Ta\n']",[],OpenKIM,EAM_Dynamo_ZhouJohnsonWadley_2004_Ta__MO_130046220009_005,['Ta']
+431,"['pair_style kim EAM_Dynamo_ZhouJohnsonWadley_2004_Ti__MO_723456820410_005\n', 'pair_coeff * * Ti\n']",[],OpenKIM,EAM_Dynamo_ZhouJohnsonWadley_2004_Ti__MO_723456820410_005,['Ti']
+432,"['pair_style kim EAM_Dynamo_ZhouJohnsonWadley_2004_W__MO_524392058194_005\n', 'pair_coeff * * W\n']",[],OpenKIM,EAM_Dynamo_ZhouJohnsonWadley_2004_W__MO_524392058194_005,['W']
+433,"['pair_style kim EAM_Dynamo_ZhouJohnsonWadley_2004_Zr__MO_103270551167_005\n', 'pair_coeff * * Zr\n']",[],OpenKIM,EAM_Dynamo_ZhouJohnsonWadley_2004_Zr__MO_103270551167_005,['Zr']
+434,"['pair_style kim EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Ag__MO_505250810900_000\n', 'pair_coeff * * Ag\n']",[],OpenKIM,EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Ag__MO_505250810900_000,['Ag']
+435,"['pair_style kim EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Al__MO_060567868558_000\n', 'pair_coeff * * Al\n']",[],OpenKIM,EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Al__MO_060567868558_000,['Al']
+436,"['pair_style kim EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Au__MO_684444719999_000\n', 'pair_coeff * * Au\n']",[],OpenKIM,EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Au__MO_684444719999_000,['Au']
+437,"['pair_style kim EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Co__MO_247800397145_000\n', 'pair_coeff * * Co\n']",[],OpenKIM,EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Co__MO_247800397145_000,['Co']
+438,"['pair_style kim EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_CuTa__MO_950828638160_000\n', 'pair_coeff * * Cu Ta\n']",[],OpenKIM,EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_CuTa__MO_950828638160_000,"['Cu', 'Ta']"
+439,"['pair_style kim EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Cu__MO_759493141826_000\n', 'pair_coeff * * Cu\n']",[],OpenKIM,EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Cu__MO_759493141826_000,['Cu']
+440,"['pair_style kim EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Fe__MO_681088298208_000\n', 'pair_coeff * * Fe\n']",[],OpenKIM,EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Fe__MO_681088298208_000,['Fe']
+441,"['pair_style kim EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Mg__MO_894868634445_000\n', 'pair_coeff * * Mg\n']",[],OpenKIM,EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Mg__MO_894868634445_000,['Mg']
+442,"['pair_style kim EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Mo__MO_230319944007_000\n', 'pair_coeff * * Mo\n']",[],OpenKIM,EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Mo__MO_230319944007_000,['Mo']
+443,"['pair_style kim EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Ni__MO_593762436933_000\n', 'pair_coeff * * Ni\n']",[],OpenKIM,EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Ni__MO_593762436933_000,['Ni']
+444,"['pair_style kim EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Pb__MO_988703794028_000\n', 'pair_coeff * * Pb\n']",[],OpenKIM,EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Pb__MO_988703794028_000,['Pb']
+445,"['pair_style kim EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Pd__MO_993644691224_000\n', 'pair_coeff * * Pd\n']",[],OpenKIM,EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Pd__MO_993644691224_000,['Pd']
+446,"['pair_style kim EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Pt__MO_601539325066_000\n', 'pair_coeff * * Pt\n']",[],OpenKIM,EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Pt__MO_601539325066_000,['Pt']
+447,"['pair_style kim EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Ta__MO_568033730744_000\n', 'pair_coeff * * Ta\n']",[],OpenKIM,EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Ta__MO_568033730744_000,['Ta']
+448,"['pair_style kim EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Ti__MO_101966451181_000\n', 'pair_coeff * * Ti\n']",[],OpenKIM,EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Ti__MO_101966451181_000,['Ti']
+449,"['pair_style kim EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_W__MO_914556822329_000\n', 'pair_coeff * * W\n']",[],OpenKIM,EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_W__MO_914556822329_000,['W']
+450,"['pair_style kim EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Zr__MO_380166217430_000\n', 'pair_coeff * * Zr\n']",[],OpenKIM,EAM_Dynamo_ZhouWadleyJohnson_2001NISTretabulation_Zr__MO_380166217430_000,['Zr']
+451,"['pair_style kim EAM_Dynamo_ZhouWadleyJohnson_2001_Al__MO_049243498555_000\n', 'pair_coeff * * Al\n']",[],OpenKIM,EAM_Dynamo_ZhouWadleyJohnson_2001_Al__MO_049243498555_000,['Al']
+452,"['pair_style kim EAM_Dynamo_ZhouWadleyJohnson_2001_CuTa__MO_547744193826_000\n', 'pair_coeff * * Cu Ta\n']",[],OpenKIM,EAM_Dynamo_ZhouWadleyJohnson_2001_CuTa__MO_547744193826_000,"['Cu', 'Ta']"
+453,"['pair_style kim EAM_Dynamo_ZhouWadleyJohnson_2001_Cu__MO_380822813353_000\n', 'pair_coeff * * Cu\n']",[],OpenKIM,EAM_Dynamo_ZhouWadleyJohnson_2001_Cu__MO_380822813353_000,['Cu']
+454,"['pair_style kim EAM_Dynamo_ZhouWadleyJohnson_2001_Pt__MO_102190350384_005\n', 'pair_coeff * * Pt\n']",[],OpenKIM,EAM_Dynamo_ZhouWadleyJohnson_2001_Pt__MO_102190350384_005,['Pt']
+455,"['pair_style kim EAM_Dynamo_ZhouWadleyJohnson_2001_W__MO_621445647666_000\n', 'pair_coeff * * W\n']",[],OpenKIM,EAM_Dynamo_ZhouWadleyJohnson_2001_W__MO_621445647666_000,['W']
+456,"['pair_style kim EAM_Dynamo_ZhouZimmermanWong_2008_PdH__MO_114797992931_000\n', 'pair_coeff * * Pd H\n']",[],OpenKIM,EAM_Dynamo_ZhouZimmermanWong_2008_PdH__MO_114797992931_000,"['Pd', 'H']"
+457,"['pair_style kim EAM_Dynamo_ZopeMishin_2003_Al__MO_664470114311_005\n', 'pair_coeff * * Al\n']",[],OpenKIM,EAM_Dynamo_ZopeMishin_2003_Al__MO_664470114311_005,['Al']
+458,"['pair_style kim EAM_Dynamo_ZopeMishin_2003_TiAl__MO_117656786760_005\n', 'pair_coeff * * Ti Al\n']",[],OpenKIM,EAM_Dynamo_ZopeMishin_2003_TiAl__MO_117656786760_005,"['Ti', 'Al']"
+459,"['pair_style kim EAM_ErcolessiAdams_1994_Al__MO_324507536345_002\n', 'pair_coeff * * Al\n']",[],OpenKIM,EAM_ErcolessiAdams_1994_Al__MO_324507536345_002,['Al']
+460,"['pair_style kim EAM_IMD_BrommerBoissieuEuchner_2009_MgZn__MO_710767216198_003\n', 'pair_coeff * * Mg Zn\n']",[],OpenKIM,EAM_IMD_BrommerBoissieuEuchner_2009_MgZn__MO_710767216198_003,"['Mg', 'Zn']"
+461,"['pair_style kim EAM_IMD_BrommerGaehlerMihalkovic_2007_CaCd__MO_145183423516_003\n', 'pair_coeff * * Ca Cd\n']",[],OpenKIM,EAM_IMD_BrommerGaehlerMihalkovic_2007_CaCd__MO_145183423516_003,"['Ca', 'Cd']"
+462,"['pair_style kim EAM_IMD_BrommerGaehler_2006A_AlNiCo__MO_122703700223_003\n', 'pair_coeff * * Al Ni Co\n']",[],OpenKIM,EAM_IMD_BrommerGaehler_2006A_AlNiCo__MO_122703700223_003,"['Al', 'Ni', 'Co']"
+463,"['pair_style kim EAM_IMD_BrommerGaehler_2006B_AlNiCo__MO_128037485276_003\n', 'pair_coeff * * Al Ni Co\n']",[],OpenKIM,EAM_IMD_BrommerGaehler_2006B_AlNiCo__MO_128037485276_003,"['Al', 'Ni', 'Co']"
+464,"['pair_style kim EAM_IMD_SchopfBrommerFrigan_2012_AlMnPd__MO_878712978062_003\n', 'pair_coeff * * Al Mn Pd\n']",[],OpenKIM,EAM_IMD_SchopfBrommerFrigan_2012_AlMnPd__MO_878712978062_003,"['Al', 'Mn', 'Pd']"
+465,"['pair_style kim EAM_Magnetic2GQuintic_ChiesaDerletDudarev_2011_Fe__MO_140444321607_002\n', 'pair_coeff * * Fe\n']",[],OpenKIM,EAM_Magnetic2GQuintic_ChiesaDerletDudarev_2011_Fe__MO_140444321607_002,['Fe']
+466,"['pair_style kim EAM_MagneticCubic_DerletNguyenDudarev_2007_Mo__MO_424746498193_002\n', 'pair_coeff * * Mo\n']",[],OpenKIM,EAM_MagneticCubic_DerletNguyenDudarev_2007_Mo__MO_424746498193_002,['Mo']
+467,"['pair_style kim EAM_MagneticCubic_DerletNguyenDudarev_2007_Nb__MO_218026715338_002\n', 'pair_coeff * * Nb\n']",[],OpenKIM,EAM_MagneticCubic_DerletNguyenDudarev_2007_Nb__MO_218026715338_002,['Nb']
+468,"['pair_style kim EAM_MagneticCubic_DerletNguyenDudarev_2007_Ta__MO_261274272789_002\n', 'pair_coeff * * Ta\n']",[],OpenKIM,EAM_MagneticCubic_DerletNguyenDudarev_2007_Ta__MO_261274272789_002,['Ta']
+469,"['pair_style kim EAM_MagneticCubic_DerletNguyenDudarev_2007_V__MO_683890323730_002\n', 'pair_coeff * * V\n']",[],OpenKIM,EAM_MagneticCubic_DerletNguyenDudarev_2007_V__MO_683890323730_002,['V']
+470,"['pair_style kim EAM_MagneticCubic_DerletNguyenDudarev_2007_W__MO_195478838873_002\n', 'pair_coeff * * W\n']",[],OpenKIM,EAM_MagneticCubic_DerletNguyenDudarev_2007_W__MO_195478838873_002,['W']
+471,"['pair_style kim EAM_MagneticCubic_DudarevDerlet_2005_Fe__MO_135034229282_002\n', 'pair_coeff * * Fe\n']",[],OpenKIM,EAM_MagneticCubic_DudarevDerlet_2005_Fe__MO_135034229282_002,['Fe']
+472,"['pair_style kim EAM_MagneticCubic_MendelevHanSrolovitz_2003_Fe__MO_856295952425_002\n', 'pair_coeff * * Fe\n']",[],OpenKIM,EAM_MagneticCubic_MendelevHanSrolovitz_2003_Fe__MO_856295952425_002,['Fe']
+473,"['pair_style kim EAM_NN_Johnson_1988_Cu__MO_887933271505_002\n', 'pair_coeff * * Cu\n']",[],OpenKIM,EAM_NN_Johnson_1988_Cu__MO_887933271505_002,['Cu']
+474,"['pair_style kim EAM_QuinticClampedSpline_ErcolessiAdams_1994_Al__MO_450093727396_002\n', 'pair_coeff * * Al\n']",[],OpenKIM,EAM_QuinticClampedSpline_ErcolessiAdams_1994_Al__MO_450093727396_002,['Al']
+475,"['pair_style kim EAM_QuinticHermiteSpline_ErcolessiAdams_1994_Al__MO_781138671863_002\n', 'pair_coeff * * Al\n']",[],OpenKIM,EAM_QuinticHermiteSpline_ErcolessiAdams_1994_Al__MO_781138671863_002,['Al']
+476,"['pair_style kim EDIP_BelkoGusakovDorozhkin_2010_Ge__MO_129433059219_001\n', 'pair_coeff * * Ge\n']",[],OpenKIM,EDIP_BelkoGusakovDorozhkin_2010_Ge__MO_129433059219_001,['Ge']
+477,"['pair_style kim EDIP_JustoBazantKaxiras_1998_Si__MO_958932894036_002\n', 'pair_coeff * * Si\n']",[],OpenKIM,EDIP_JustoBazantKaxiras_1998_Si__MO_958932894036_002,['Si']
+478,"['pair_style kim EMT_Asap_MetalGlass_BaileySchiotzJacobsen_2004_CuMg__MO_228059236215_001\n', 'pair_coeff * * Cu Mg\n']",[],OpenKIM,EMT_Asap_MetalGlass_BaileySchiotzJacobsen_2004_CuMg__MO_228059236215_001,"['Cu', 'Mg']"
+479,"['pair_style kim EMT_Asap_MetalGlass_PaduraruKenoufiBailey_2007_CuZr__MO_987541074959_001\n', 'pair_coeff * * Cu Zr\n']",[],OpenKIM,EMT_Asap_MetalGlass_PaduraruKenoufiBailey_2007_CuZr__MO_987541074959_001,"['Cu', 'Zr']"
+480,"['pair_style kim EMT_Asap_Standard_JacobsenStoltzeNorskov_1996_Ag__MO_303974873468_001\n', 'pair_coeff * * Ag\n']",[],OpenKIM,EMT_Asap_Standard_JacobsenStoltzeNorskov_1996_Ag__MO_303974873468_001,['Ag']
+481,"['pair_style kim EMT_Asap_Standard_JacobsenStoltzeNorskov_1996_AlAgAuCuNiPdPt__MO_115316750986_001\n', 'pair_coeff * * Al Ag Au Cu Ni Pd Pt\n']",[],OpenKIM,EMT_Asap_Standard_JacobsenStoltzeNorskov_1996_AlAgAuCuNiPdPt__MO_115316750986_001,"['Al', 'Ag', 'Au', 'Cu', 'Ni', 'Pd', 'Pt']"
+482,"['pair_style kim EMT_Asap_Standard_JacobsenStoltzeNorskov_1996_Al__MO_623376124862_001\n', 'pair_coeff * * Al\n']",[],OpenKIM,EMT_Asap_Standard_JacobsenStoltzeNorskov_1996_Al__MO_623376124862_001,['Al']
+483,"['pair_style kim EMT_Asap_Standard_JacobsenStoltzeNorskov_1996_Au__MO_017524376569_001\n', 'pair_coeff * * Au\n']",[],OpenKIM,EMT_Asap_Standard_JacobsenStoltzeNorskov_1996_Au__MO_017524376569_001,['Au']
+484,"['pair_style kim EMT_Asap_Standard_JacobsenStoltzeNorskov_1996_Cu__MO_396616545191_001\n', 'pair_coeff * * Cu\n']",[],OpenKIM,EMT_Asap_Standard_JacobsenStoltzeNorskov_1996_Cu__MO_396616545191_001,['Cu']
+485,"['pair_style kim EMT_Asap_Standard_JacobsenStoltzeNorskov_1996_Ni__MO_108408461881_001\n', 'pair_coeff * * Ni\n']",[],OpenKIM,EMT_Asap_Standard_JacobsenStoltzeNorskov_1996_Ni__MO_108408461881_001,['Ni']
+486,"['pair_style kim EMT_Asap_Standard_JacobsenStoltzeNorskov_1996_Pd__MO_066802556726_001\n', 'pair_coeff * * Pd\n']",[],OpenKIM,EMT_Asap_Standard_JacobsenStoltzeNorskov_1996_Pd__MO_066802556726_001,['Pd']
+487,"['pair_style kim EMT_Asap_Standard_JacobsenStoltzeNorskov_1996_Pt__MO_637493005914_001\n', 'pair_coeff * * Pt\n']",[],OpenKIM,EMT_Asap_Standard_JacobsenStoltzeNorskov_1996_Pt__MO_637493005914_001,['Pt']
+488,"['pair_style kim Exp6_KongChakrabarty_1973_ArNe__MO_946046425752_002\n', 'pair_coeff * * Ar Ne\n']",[],OpenKIM,Exp6_KongChakrabarty_1973_ArNe__MO_946046425752_002,"['Ar', 'Ne']"
+489,[],[],OpenKIM,LJ_ElliottAkerson_2015_Universal__MO_959249795837_003,[]
+490,"['pair_style kim LJ_Shifted_Bernardes_1958HighCutoff_Ar__MO_242741380554_003\n', 'pair_coeff * * Ar\n']",[],OpenKIM,LJ_Shifted_Bernardes_1958HighCutoff_Ar__MO_242741380554_003,['Ar']
+491,"['pair_style kim LJ_Shifted_Bernardes_1958HighCutoff_Kr__MO_923895531627_003\n', 'pair_coeff * * Kr\n']",[],OpenKIM,LJ_Shifted_Bernardes_1958HighCutoff_Kr__MO_923895531627_003,['Kr']
+492,"['pair_style kim LJ_Shifted_Bernardes_1958HighCutoff_Ne__MO_966254629593_003\n', 'pair_coeff * * Ne\n']",[],OpenKIM,LJ_Shifted_Bernardes_1958HighCutoff_Ne__MO_966254629593_003,['Ne']
+493,"['pair_style kim LJ_Shifted_Bernardes_1958HighCutoff_Xe__MO_796748253903_003\n', 'pair_coeff * * Xe\n']",[],OpenKIM,LJ_Shifted_Bernardes_1958HighCutoff_Xe__MO_796748253903_003,['Xe']
+494,"['pair_style kim LJ_Shifted_Bernardes_1958LowCutoff_Ar__MO_720819638419_003\n', 'pair_coeff * * Ar\n']",[],OpenKIM,LJ_Shifted_Bernardes_1958LowCutoff_Ar__MO_720819638419_003,['Ar']
+495,"['pair_style kim LJ_Shifted_Bernardes_1958LowCutoff_Kr__MO_995724792024_003\n', 'pair_coeff * * Kr\n']",[],OpenKIM,LJ_Shifted_Bernardes_1958LowCutoff_Kr__MO_995724792024_003,['Kr']
+496,"['pair_style kim LJ_Shifted_Bernardes_1958LowCutoff_Ne__MO_466741694288_003\n', 'pair_coeff * * Ne\n']",[],OpenKIM,LJ_Shifted_Bernardes_1958LowCutoff_Ne__MO_466741694288_003,['Ne']
+497,"['pair_style kim LJ_Shifted_Bernardes_1958LowCutoff_Xe__MO_648694198005_003\n', 'pair_coeff * * Xe\n']",[],OpenKIM,LJ_Shifted_Bernardes_1958LowCutoff_Xe__MO_648694198005_003,['Xe']
+498,"['pair_style kim LJ_Shifted_Bernardes_1958MedCutoff_Ar__MO_126566794224_003\n', 'pair_coeff * * Ar\n']",[],OpenKIM,LJ_Shifted_Bernardes_1958MedCutoff_Ar__MO_126566794224_003,['Ar']
+499,"['pair_style kim LJ_Shifted_Bernardes_1958MedCutoff_Kr__MO_984281096460_003\n', 'pair_coeff * * Kr\n']",[],OpenKIM,LJ_Shifted_Bernardes_1958MedCutoff_Kr__MO_984281096460_003,['Kr']
+500,"['pair_style kim LJ_Shifted_Bernardes_1958MedCutoff_Ne__MO_160637895352_003\n', 'pair_coeff * * Ne\n']",[],OpenKIM,LJ_Shifted_Bernardes_1958MedCutoff_Ne__MO_160637895352_003,['Ne']
+501,"['pair_style kim LJ_Shifted_Bernardes_1958MedCutoff_Xe__MO_849320763277_003\n', 'pair_coeff * * Xe\n']",[],OpenKIM,LJ_Shifted_Bernardes_1958MedCutoff_Xe__MO_849320763277_003,['Xe']
+502,"['pair_style kim LJ_Smoothed_Bernardes_1958_Ar__MO_764178710049_001\n', 'pair_coeff * * Ar\n']",[],OpenKIM,LJ_Smoothed_Bernardes_1958_Ar__MO_764178710049_001,['Ar']
+503,"['pair_style kim LJ_Truncated_Nguyen_2005_Ar__MO_398194508715_001\n', 'pair_coeff * * Ar\n']",[],OpenKIM,LJ_Truncated_Nguyen_2005_Ar__MO_398194508715_001,['Ar']
+504,[],[],OpenKIM,LennardJones612_UniversalShifted__MO_959249795837_003,[]
+505,"['pair_style kim LennardJones_Ar\n', 'pair_coeff * * Ar\n']",[],OpenKIM,LennardJones_Ar,['Ar']
+506,"['pair_style kim MFF_MistriotisFlytzanisFarantos_1989_Si__MO_080526771943_001\n', 'pair_coeff * * Si\n']",[],OpenKIM,MFF_MistriotisFlytzanisFarantos_1989_Si__MO_080526771943_001,['Si']
+507,"['pair_style kim MJ_MorrisAgaLevashov_2008_Fe__MO_857282754307_003\n', 'pair_coeff * * Fe\n']",[],OpenKIM,MJ_MorrisAgaLevashov_2008_Fe__MO_857282754307_003,['Fe']
+508,"['pair_style kim Morse_EIP_GuthikondaElliott_2011_AuCd__MO_703849496106_002\n', 'pair_coeff * * Au Cd\n']",[],OpenKIM,Morse_EIP_GuthikondaElliott_2011_AuCd__MO_703849496106_002,"['Au', 'Cd']"
+509,"['pair_style kim Morse_QuinticSmoothed_Jelinek_1972_Ar__MO_908645784389_002\n', 'pair_coeff * * Ar\n']",[],OpenKIM,Morse_QuinticSmoothed_Jelinek_1972_Ar__MO_908645784389_002,['Ar']
+510,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Ag__MO_111986436268_003\n', 'pair_coeff * * Ag\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Ag__MO_111986436268_003,['Ag']
+511,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Al__MO_140175748626_003\n', 'pair_coeff * * Al\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Al__MO_140175748626_003,['Al']
+512,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Ba__MO_676977998912_003\n', 'pair_coeff * * Ba\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Ba__MO_676977998912_003,['Ba']
+513,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Ca__MO_159753408472_003\n', 'pair_coeff * * Ca\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Ca__MO_159753408472_003,['Ca']
+514,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Cr__MO_859700307573_003\n', 'pair_coeff * * Cr\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Cr__MO_859700307573_003,['Cr']
+515,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Cs__MO_187111446479_003\n', 'pair_coeff * * Cs\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Cs__MO_187111446479_003,['Cs']
+516,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Cu__MO_151002396060_003\n', 'pair_coeff * * Cu\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Cu__MO_151002396060_003,['Cu']
+517,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Fe__MO_147603128437_003\n', 'pair_coeff * * Fe\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Fe__MO_147603128437_003,['Fe']
+518,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959HighCutoff_K__MO_836927321152_003\n', 'pair_coeff * * K\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959HighCutoff_K__MO_836927321152_003,['K']
+519,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Mo__MO_666830945336_003\n', 'pair_coeff * * Mo\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Mo__MO_666830945336_003,['Mo']
+520,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Na__MO_587469264453_003\n', 'pair_coeff * * Na\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Na__MO_587469264453_003,['Na']
+521,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Ni__MO_381861218831_003\n', 'pair_coeff * * Ni\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Ni__MO_381861218831_003,['Ni']
+522,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Pb__MO_370271093517_003\n', 'pair_coeff * * Pb\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Pb__MO_370271093517_003,['Pb']
+523,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Rb__MO_908110223949_003\n', 'pair_coeff * * Rb\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Rb__MO_908110223949_003,['Rb']
+524,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Sr__MO_497591319122_003\n', 'pair_coeff * * Sr\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959HighCutoff_Sr__MO_497591319122_003,['Sr']
+525,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959HighCutoff_W__MO_646516726498_003\n', 'pair_coeff * * W\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959HighCutoff_W__MO_646516726498_003,['W']
+526,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Ag__MO_137719994600_003\n', 'pair_coeff * * Ag\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Ag__MO_137719994600_003,['Ag']
+527,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Al__MO_411898953661_003\n', 'pair_coeff * * Al\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Al__MO_411898953661_003,['Al']
+528,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Ba__MO_143487634619_003\n', 'pair_coeff * * Ba\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Ba__MO_143487634619_003,['Ba']
+529,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Ca__MO_887105884651_003\n', 'pair_coeff * * Ca\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Ca__MO_887105884651_003,['Ca']
+530,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Cr__MO_483480726117_003\n', 'pair_coeff * * Cr\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Cr__MO_483480726117_003,['Cr']
+531,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Cs__MO_256406354561_003\n', 'pair_coeff * * Cs\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Cs__MO_256406354561_003,['Cs']
+532,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Cu__MO_673777079812_003\n', 'pair_coeff * * Cu\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Cu__MO_673777079812_003,['Cu']
+533,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Fe__MO_331285495617_003\n', 'pair_coeff * * Fe\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Fe__MO_331285495617_003,['Fe']
+534,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959LowCutoff_K__MO_749732139672_003\n', 'pair_coeff * * K\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959LowCutoff_K__MO_749732139672_003,['K']
+535,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Mo__MO_228581001644_003\n', 'pair_coeff * * Mo\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Mo__MO_228581001644_003,['Mo']
+536,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Na__MO_707981543254_003\n', 'pair_coeff * * Na\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Na__MO_707981543254_003,['Na']
+537,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Ni__MO_322509103239_003\n', 'pair_coeff * * Ni\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Ni__MO_322509103239_003,['Ni']
+538,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Pb__MO_534638645497_003\n', 'pair_coeff * * Pb\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Pb__MO_534638645497_003,['Pb']
+539,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Rb__MO_754498969542_003\n', 'pair_coeff * * Rb\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Rb__MO_754498969542_003,['Rb']
+540,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Sr__MO_801083489225_003\n', 'pair_coeff * * Sr\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959LowCutoff_Sr__MO_801083489225_003,['Sr']
+541,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959LowCutoff_W__MO_489351836217_003\n', 'pair_coeff * * W\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959LowCutoff_W__MO_489351836217_003,['W']
+542,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Ag__MO_861893969202_003\n', 'pair_coeff * * Ag\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Ag__MO_861893969202_003,['Ag']
+543,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Al__MO_279544746097_003\n', 'pair_coeff * * Al\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Al__MO_279544746097_003,['Al']
+544,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Ba__MO_229241184339_003\n', 'pair_coeff * * Ba\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Ba__MO_229241184339_003,['Ba']
+545,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Ca__MO_562200212426_003\n', 'pair_coeff * * Ca\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Ca__MO_562200212426_003,['Ca']
+546,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Cr__MO_245813471114_003\n', 'pair_coeff * * Cr\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Cr__MO_245813471114_003,['Cr']
+547,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Cs__MO_999639780744_003\n', 'pair_coeff * * Cs\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Cs__MO_999639780744_003,['Cs']
+548,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Cu__MO_173787283511_003\n', 'pair_coeff * * Cu\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Cu__MO_173787283511_003,['Cu']
+549,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Fe__MO_984358344196_003\n', 'pair_coeff * * Fe\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Fe__MO_984358344196_003,['Fe']
+550,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959MedCutoff_K__MO_202712315930_003\n', 'pair_coeff * * K\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959MedCutoff_K__MO_202712315930_003,['K']
+551,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Mo__MO_534363225491_003\n', 'pair_coeff * * Mo\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Mo__MO_534363225491_003,['Mo']
+552,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Na__MO_636041334617_003\n', 'pair_coeff * * Na\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Na__MO_636041334617_003,['Na']
+553,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Ni__MO_758825945924_003\n', 'pair_coeff * * Ni\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Ni__MO_758825945924_003,['Ni']
+554,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Pb__MO_958424213898_003\n', 'pair_coeff * * Pb\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Pb__MO_958424213898_003,['Pb']
+555,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Rb__MO_147245690895_003\n', 'pair_coeff * * Rb\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Rb__MO_147245690895_003,['Rb']
+556,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Sr__MO_964297938209_003\n', 'pair_coeff * * Sr\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959MedCutoff_Sr__MO_964297938209_003,['Sr']
+557,"['pair_style kim Morse_Shifted_GirifalcoWeizer_1959MedCutoff_W__MO_390128289865_003\n', 'pair_coeff * * W\n']",[],OpenKIM,Morse_Shifted_GirifalcoWeizer_1959MedCutoff_W__MO_390128289865_003,['W']
+558,"['pair_style kim Morse_Shifted_Glyde_1970_Ne__MO_169434419764_003\n', 'pair_coeff * * Ne\n']",[],OpenKIM,Morse_Shifted_Glyde_1970_Ne__MO_169434419764_003,['Ne']
+559,"['pair_style kim Morse_Shifted_Jelinek_1972_Ar__MO_831902330215_003\n', 'pair_coeff * * Ar\n']",[],OpenKIM,Morse_Shifted_Jelinek_1972_Ar__MO_831902330215_003,['Ar']
+560,"['pair_style kim Morse_SigmoidalSmoothed_Jelinek_1972_Ar__MO_071460865933_002\n', 'pair_coeff * * Ar\n']",[],OpenKIM,Morse_SigmoidalSmoothed_Jelinek_1972_Ar__MO_071460865933_002,['Ar']
+561,"['pair_style kim SW_BalamaneHaliciogluTiller_1992_Si__MO_113686039439_004\n', 'pair_coeff * * Si\n']",[],OpenKIM,SW_BalamaneHaliciogluTiller_1992_Si__MO_113686039439_004,['Si']
+562,"['pair_style kim SW_BalamaneHauchShi_2017Brittle_Si__MO_381114941873_002\n', 'pair_coeff * * Si\n']",[],OpenKIM,SW_BalamaneHauchShi_2017Brittle_Si__MO_381114941873_002,['Si']
+563,"['pair_style kim SW_BereSerra_2006_GaN__MO_861114678890_000\n', 'pair_coeff * * Ga N\n']",[],OpenKIM,SW_BereSerra_2006_GaN__MO_861114678890_000,"['Ga', 'N']"
+564,"['pair_style kim SW_HauchHollandMarder_1999Brittle_Si__MO_119167353542_004\n', 'pair_coeff * * Si\n']",[],OpenKIM,SW_HauchHollandMarder_1999Brittle_Si__MO_119167353542_004,['Si']
+565,"['pair_style kim SW_LeeHwang_2012GGA_Si__MO_040570764911_000\n', 'pair_coeff * * Si\n']",[],OpenKIM,SW_LeeHwang_2012GGA_Si__MO_040570764911_000,['Si']
+566,"['pair_style kim SW_LeeHwang_2012LDA_Si__MO_517338295712_000\n', 'pair_coeff * * Si\n']",[],OpenKIM,SW_LeeHwang_2012LDA_Si__MO_517338295712_000,['Si']
+567,"['pair_style kim SW_MX2_WenShirodkarPlechac_2017_MoS__MO_201919462778_001\n', 'pair_coeff * * Mo S\n']",[],OpenKIM,SW_MX2_WenShirodkarPlechac_2017_MoS__MO_201919462778_001,"['Mo', 'S']"
+568,"['pair_style kim SW_StillingerWeber_1985_Si__MO_405512056662_005\n', 'pair_coeff * * Si\n']",[],OpenKIM,SW_StillingerWeber_1985_Si__MO_405512056662_005,['Si']
+569,"['pair_style kim SW_WangStroudMarkworth_1989_CdTe__MO_786496821446_000\n', 'pair_coeff * * Cd Te\n']",[],OpenKIM,SW_WangStroudMarkworth_1989_CdTe__MO_786496821446_000,"['Cd', 'Te']"
+570,"['pair_style kim SW_ZhangXieHu_2014OptimizedSW1_Si__MO_800412945727_004\n', 'pair_coeff * * Si\n']",[],OpenKIM,SW_ZhangXieHu_2014OptimizedSW1_Si__MO_800412945727_004,['Si']
+571,"['pair_style kim SW_ZhangXieHu_2014OptimizedSW2_Si__MO_475612090600_004\n', 'pair_coeff * * Si\n']",[],OpenKIM,SW_ZhangXieHu_2014OptimizedSW2_Si__MO_475612090600_004,['Si']
+572,"['pair_style kim SW_ZhouWardMartin_2013_CdTeZnSeHgS__MO_503261197030_002\n', 'pair_coeff * * Cd Te Zn Se Hg S\n']",[],OpenKIM,SW_ZhouWardMartin_2013_CdTeZnSeHgS__MO_503261197030_002,"['Cd', 'Te', 'Zn', 'Se', 'Hg', 'S']"
+573,[],[],OpenKIM,TIDP_RajanWarnerCurtin_2016A_User01__MO_514760222899_000,[]
+574,[],[],OpenKIM,TIDP_RajanWarnerCurtin_2016B_User01__MO_217710069583_000,[]
+575,[],[],OpenKIM,TIDP_RajanWarnerCurtin_2016C_User01__MO_072437275969_000,[]
+576,[],[],OpenKIM,TIDP_RajanWarnerCurtin_2016D_User01__MO_791486224463_000,[]
+577,[],[],OpenKIM,TIDP_RajanWarnerCurtin_2016E_User01__MO_971845881377_000,[]
+578,[],[],OpenKIM,TIDP_RajanWarnerCurtin_2016F_User01__MO_246297839798_000,[]
+579,"['pair_style kim TT_Modified_HellmannBichVogel_2007_He__MO_126942667206_002\n', 'pair_coeff * * He\n']",[],OpenKIM,TT_Modified_HellmannBichVogel_2007_He__MO_126942667206_002,['He']
+580,"['pair_style kim Tersoff_LAMMPS_AlbeNordlundAverback_2002_PtC__MO_500121566391_002\n', 'pair_coeff * * Pt C\n']",[],OpenKIM,Tersoff_LAMMPS_AlbeNordlundAverback_2002_PtC__MO_500121566391_002,"['Pt', 'C']"
+581,"['pair_style kim Tersoff_LAMMPS_AlbeNordlundNord_2002_GaAs__MO_799020228312_002\n', 'pair_coeff * * Ga As\n']",[],OpenKIM,Tersoff_LAMMPS_AlbeNordlundNord_2002_GaAs__MO_799020228312_002,"['Ga', 'As']"
+582,"['pair_style kim Tersoff_LAMMPS_ErhartAlbe_2005SiII_SiC__MO_408791041969_002\n', 'pair_coeff * * Si C\n']",[],OpenKIM,Tersoff_LAMMPS_ErhartAlbe_2005SiII_SiC__MO_408791041969_002,"['Si', 'C']"
+583,"['pair_style kim Tersoff_LAMMPS_ErhartAlbe_2005_SiC__MO_903987585848_003\n', 'pair_coeff * * Si C\n']",[],OpenKIM,Tersoff_LAMMPS_ErhartAlbe_2005_SiC__MO_903987585848_003,"['Si', 'C']"
+584,"['pair_style kim Tersoff_LAMMPS_ErhartJuslinGoy_2006_ZnO__MO_616776018688_002\n', 'pair_coeff * * Zn O\n']",[],OpenKIM,Tersoff_LAMMPS_ErhartJuslinGoy_2006_ZnO__MO_616776018688_002,"['Zn', 'O']"
+585,"['pair_style kim Tersoff_LAMMPS_MuellerErhartAlbe_2007_Fe__MO_137964310702_002\n', 'pair_coeff * * Fe\n']",[],OpenKIM,Tersoff_LAMMPS_MuellerErhartAlbe_2007_Fe__MO_137964310702_002,['Fe']
+586,"['pair_style kim Tersoff_LAMMPS_NordAlbeErhart_2003_GaN__MO_612061685362_002\n', 'pair_coeff * * Ga N\n']",[],OpenKIM,Tersoff_LAMMPS_NordAlbeErhart_2003_GaN__MO_612061685362_002,"['Ga', 'N']"
+587,"['pair_style kim Tersoff_LAMMPS_Tersoff_1988T2_Si__MO_245095684871_002\n', 'pair_coeff * * Si\n']",[],OpenKIM,Tersoff_LAMMPS_Tersoff_1988T2_Si__MO_245095684871_002,['Si']
+588,"['pair_style kim Tersoff_LAMMPS_Tersoff_1988T3_Si__MO_186459956893_002\n', 'pair_coeff * * Si\n']",[],OpenKIM,Tersoff_LAMMPS_Tersoff_1988T3_Si__MO_186459956893_002,['Si']
+589,"['pair_style kim Tersoff_LAMMPS_Tersoff_1988_C__MO_579868029681_002\n', 'pair_coeff * * C\n']",[],OpenKIM,Tersoff_LAMMPS_Tersoff_1988_C__MO_579868029681_002,['C']
+590,"['pair_style kim Tersoff_LAMMPS_Tersoff_1989_SiC__MO_171585019474_002\n', 'pair_coeff * * Si C\n']",[],OpenKIM,Tersoff_LAMMPS_Tersoff_1989_SiC__MO_171585019474_002,"['Si', 'C']"
+591,"['pair_style kim Tersoff_LAMMPS_Tersoff_1989_SiGe__MO_350526375143_002\n', 'pair_coeff * * Si Ge\n']",[],OpenKIM,Tersoff_LAMMPS_Tersoff_1989_SiGe__MO_350526375143_002,"['Si', 'Ge']"
+592,"['pair_style kim ThreeBodyBondOrder_KDS_KhorDasSarma_1988_C__MO_454320668790_000\n', 'pair_coeff * * C\n']",[],OpenKIM,ThreeBodyBondOrder_KDS_KhorDasSarma_1988_C__MO_454320668790_000,['C']
+593,"['pair_style kim ThreeBodyBondOrder_KDS_KhorDasSarma_1988_Ge__MO_216597146527_000\n', 'pair_coeff * * Ge\n']",[],OpenKIM,ThreeBodyBondOrder_KDS_KhorDasSarma_1988_Ge__MO_216597146527_000,['Ge']
+594,"['pair_style kim ThreeBodyBondOrder_KDS_KhorDasSarma_1988_Si__MO_722489435928_000\n', 'pair_coeff * * Si\n']",[],OpenKIM,ThreeBodyBondOrder_KDS_KhorDasSarma_1988_Si__MO_722489435928_000,['Si']
+595,"['pair_style kim ThreeBodyBondOrder_PPM_PurjaPunMishin_2017_Si__MO_566683736730_000\n', 'pair_coeff * * Si\n']",[],OpenKIM,ThreeBodyBondOrder_PPM_PurjaPunMishin_2017_Si__MO_566683736730_000,['Si']
+596,"['pair_style kim ThreeBodyBondOrder_WR_WangRockett_1991_Si__MO_081872846741_000\n', 'pair_coeff * * Si\n']",[],OpenKIM,ThreeBodyBondOrder_WR_WangRockett_1991_Si__MO_081872846741_000,['Si']
+597,"['pair_style kim ThreeBodyCluster_BH_BiswasHamann_1987_Si__MO_019616213550_000\n', 'pair_coeff * * Si\n']",[],OpenKIM,ThreeBodyCluster_BH_BiswasHamann_1987_Si__MO_019616213550_000,['Si']
+598,"['pair_style kim ThreeBodyCluster_Gong_Gong_1993_Si__MO_407755720412_000\n', 'pair_coeff * * Si\n']",[],OpenKIM,ThreeBodyCluster_Gong_Gong_1993_Si__MO_407755720412_000,['Si']
+599,"['pair_style kim ThreeBodyCluster_KP_KaxirasPandey_1988_Si__MO_072486242437_000\n', 'pair_coeff * * Si\n']",[],OpenKIM,ThreeBodyCluster_KP_KaxirasPandey_1988_Si__MO_072486242437_000,['Si']
+600,"['pair_style kim ThreeBodyCluster_SRS_StephensonRadnySmith_1996_Si__MO_604248666067_000\n', 'pair_coeff * * Si\n']",[],OpenKIM,ThreeBodyCluster_SRS_StephensonRadnySmith_1996_Si__MO_604248666067_000,['Si']
+601,[],[],OpenKIM,ex_model_Ar_P_LJ,[]
+602,[],[],OpenKIM,ex_model_Ar_P_MLJ_Fortran,[]
+603,[],[],OpenKIM,ex_model_Ar_P_Morse,[]
+604,"['pair_style kim ex_model_Ar_P_Morse_07C\n', 'pair_coeff * * C\n']",[],OpenKIM,ex_model_Ar_P_Morse_07C,['C']
+605,[],[],OpenKIM,ex_model_Ar_P_Morse_07C_w_Extensions,[]
+606,[],[],OpenKIM,ex_model_Ar_P_Morse_MultiCutoff,[]
+607,[],[],OpenKIM,ex_model_Ar_SLJ_MultiCutoff,[]
+608,"['pair_style kim hNN_WT_WenTadmor_2019Grx_C__MO_421038499185_000\n', 'pair_coeff * * C\n']",[],OpenKIM,hNN_WT_WenTadmor_2019Grx_C__MO_421038499185_000,['C']
+609,"['pair_style kim Sim_ASAP_EMT_Rasmussen_AgAuCu__SM_847706399649_000\n', 'pair_coeff * * Ag Au Cu\n']",[],OpenKIM,Sim_ASAP_EMT_Rasmussen_AgAuCu__SM_847706399649_000,"['Ag', 'Au', 'Cu']"
+610,"['pair_style kim Sim_LAMMPS_ADP_ApostolMishin_2011_AlCu__SM_667696763561_000\n', 'pair_coeff * * Al Cu\n']",[],OpenKIM,Sim_LAMMPS_ADP_ApostolMishin_2011_AlCu__SM_667696763561_000,"['Al', 'Cu']"
+611,"['pair_style kim Sim_LAMMPS_ADP_MishinMehlPapaconstantopoulos_2005_Ni__SM_477692857359_000\n', 'pair_coeff * * Ni\n']",[],OpenKIM,Sim_LAMMPS_ADP_MishinMehlPapaconstantopoulos_2005_Ni__SM_477692857359_000,['Ni']
+612,"['pair_style kim Sim_LAMMPS_ADP_PunDarlingKecskes_2015_CuTa__SM_399364650444_000\n', 'pair_coeff * * Cu Ta\n']",[],OpenKIM,Sim_LAMMPS_ADP_PunDarlingKecskes_2015_CuTa__SM_399364650444_000,"['Cu', 'Ta']"
+613,"['pair_style kim Sim_LAMMPS_ADP_SmirnovaStarikov_2017_ZrNb__SM_937902197407_000\n', 'pair_coeff * * Zr Nb\n']",[],OpenKIM,Sim_LAMMPS_ADP_SmirnovaStarikov_2017_ZrNb__SM_937902197407_000,"['Zr', 'Nb']"
+614,"['pair_style kim Sim_LAMMPS_ADP_StarikovKolotovaKuksin_2017_UMo__SM_682749584055_000\n', 'pair_coeff * * U Mo\n']",[],OpenKIM,Sim_LAMMPS_ADP_StarikovKolotovaKuksin_2017_UMo__SM_682749584055_000,"['U', 'Mo']"
+615,"['pair_style kim Sim_LAMMPS_ADP_StarikovLopanitsynaSmirnova_2018_SiAu__SM_985135773293_000\n', 'pair_coeff * * Si Au\n']",[],OpenKIM,Sim_LAMMPS_ADP_StarikovLopanitsynaSmirnova_2018_SiAu__SM_985135773293_000,"['Si', 'Au']"
+616,"['pair_style kim Sim_LAMMPS_ADP_TseplyaevStarikova_2016_UN__SM_474015477315_000\n', 'pair_coeff * * U N\n']",[],OpenKIM,Sim_LAMMPS_ADP_TseplyaevStarikova_2016_UN__SM_474015477315_000,"['U', 'N']"
+617,"['pair_style kim Sim_LAMMPS_AGNI_BotuBatraChapman_2017_Al__SM_666183636896_000\n', 'pair_coeff * * Al\n']",[],OpenKIM,Sim_LAMMPS_AGNI_BotuBatraChapman_2017_Al__SM_666183636896_000,['Al']
+618,"['pair_style kim Sim_LAMMPS_AIREBO_LJ_StuartTuteinHarrison_2000_CH__SM_069621990420_000\n', 'pair_coeff * * C H\n']",[],OpenKIM,Sim_LAMMPS_AIREBO_LJ_StuartTuteinHarrison_2000_CH__SM_069621990420_000,"['C', 'H']"
+619,"['pair_style kim Sim_LAMMPS_AIREBO_Morse_OConnorAndzelmRobbins_2015_CH__SM_460187474631_000\n', 'pair_coeff * * C H\n']",[],OpenKIM,Sim_LAMMPS_AIREBO_Morse_OConnorAndzelmRobbins_2015_CH__SM_460187474631_000,"['C', 'H']"
+620,"['pair_style kim Sim_LAMMPS_BOP_MurdickZhouWadley_2006_GaAs__SM_104202807866_000\n', 'pair_coeff * * Ga As\n']",[],OpenKIM,Sim_LAMMPS_BOP_MurdickZhouWadley_2006_GaAs__SM_104202807866_000,"['Ga', 'As']"
+621,"['pair_style kim Sim_LAMMPS_BOP_WardZhouWong_2012_CdTe__SM_509819366101_000\n', 'pair_coeff * * Cd Te\n']",[],OpenKIM,Sim_LAMMPS_BOP_WardZhouWong_2012_CdTe__SM_509819366101_000,"['Cd', 'Te']"
+622,"['pair_style kim Sim_LAMMPS_BOP_WardZhouWong_2012_CdZnTe__SM_409035133405_000\n', 'pair_coeff * * Cd Zn Te\n']",[],OpenKIM,Sim_LAMMPS_BOP_WardZhouWong_2012_CdZnTe__SM_409035133405_000,"['Cd', 'Zn', 'Te']"
+623,"['pair_style kim Sim_LAMMPS_BOP_WardZhouWong_2013_CdZnTe__SM_010061267051_000\n', 'pair_coeff * * Cd Zn Te\n']",[],OpenKIM,Sim_LAMMPS_BOP_WardZhouWong_2013_CdZnTe__SM_010061267051_000,"['Cd', 'Zn', 'Te']"
+624,"['pair_style kim Sim_LAMMPS_BOP_ZhouFosterVanSwol_2014_CdTeSe__SM_567065323363_000\n', 'pair_coeff * * Cd Te Se\n']",[],OpenKIM,Sim_LAMMPS_BOP_ZhouFosterVanSwol_2014_CdTeSe__SM_567065323363_000,"['Cd', 'Te', 'Se']"
+625,"['pair_style kim Sim_LAMMPS_BOP_ZhouWardFoster_2015_CCu__SM_784926969362_000\n', 'pair_coeff * * C Cu\n']",[],OpenKIM,Sim_LAMMPS_BOP_ZhouWardFoster_2015_CCu__SM_784926969362_000,"['C', 'Cu']"
+626,"['pair_style kim Sim_LAMMPS_BOP_ZhouWardFoster_2015_CuH__SM_404135993060_000\n', 'pair_coeff * * Cu H\n']",[],OpenKIM,Sim_LAMMPS_BOP_ZhouWardFoster_2015_CuH__SM_404135993060_000,"['Cu', 'H']"
+627,"['pair_style kim Sim_LAMMPS_BOP_ZhouWardFoster_2016_AlCu__SM_566399258279_000\n', 'pair_coeff * * Al Cu\n']",[],OpenKIM,Sim_LAMMPS_BOP_ZhouWardFoster_2016_AlCu__SM_566399258279_000,"['Al', 'Cu']"
+628,"['pair_style kim Sim_LAMMPS_EAMCD_StukowskiSadighErhart_2009_FeCr__SM_775564499513_000\n', 'pair_coeff * * Fe Cr\n']",[],OpenKIM,Sim_LAMMPS_EAMCD_StukowskiSadighErhart_2009_FeCr__SM_775564499513_000,"['Fe', 'Cr']"
+629,"['pair_style kim Sim_LAMMPS_EAM_BonnyCastinBullens_2013_FeCrW__SM_699257350704_000\n', 'pair_coeff * * Fe Cr W\n']",[],OpenKIM,Sim_LAMMPS_EAM_BonnyCastinBullens_2013_FeCrW__SM_699257350704_000,"['Fe', 'Cr', 'W']"
+630,"['pair_style kim Sim_LAMMPS_EAM_BonnyPasianotTerentyev_2011_FeCr__SM_237089298463_000\n', 'pair_coeff * * Fe Cr\n']",[],OpenKIM,Sim_LAMMPS_EAM_BonnyPasianotTerentyev_2011_FeCr__SM_237089298463_000,"['Fe', 'Cr']"
+631,"['pair_style kim Sim_LAMMPS_EDIP_JiangMorganSzlufarska_2012_SiC__SM_435704953434_000\n', 'pair_coeff * * Si C\n']",[],OpenKIM,Sim_LAMMPS_EDIP_JiangMorganSzlufarska_2012_SiC__SM_435704953434_000,"['Si', 'C']"
+632,"['pair_style kim Sim_LAMMPS_EIM_Zhou_2010_BrClCsFIKLiNaRb__SM_259779394709_000\n', 'pair_coeff * * Br Cl Cs F I K Li Na Rb\n']",[],OpenKIM,Sim_LAMMPS_EIM_Zhou_2010_BrClCsFIKLiNaRb__SM_259779394709_000,"['Br', 'Cl', 'Cs', 'F', 'I', 'K', 'Li', 'Na', 'Rb']"
+633,"['pair_style kim Sim_LAMMPS_GWZBL_Samolyuk_2016_SiC__SM_720598599889_000\n', 'pair_coeff * * Si C\n']",[],OpenKIM,Sim_LAMMPS_GWZBL_Samolyuk_2016_SiC__SM_720598599889_000,"['Si', 'C']"
+634,"['pair_style kim Sim_LAMMPS_GW_GaoWeber_2002_SiC__SM_606253546840_000\n', 'pair_coeff * * Si C\n']",[],OpenKIM,Sim_LAMMPS_GW_GaoWeber_2002_SiC__SM_606253546840_000,"['Si', 'C']"
+635,[],[],OpenKIM,Sim_LAMMPS_IFF_PCFF_HeinzMishraLinEmami_2015Ver1v5_FccmetalsMineralsSolventsPolymers__SM_039297821658_000,[]
+636,"['pair_style kim Sim_LAMMPS_LCBOP_LosFasolino_2003_C__SM_469631949122_000\n', 'pair_coeff * * C\n']",[],OpenKIM,Sim_LAMMPS_LCBOP_LosFasolino_2003_C__SM_469631949122_000,['C']
+637,"['pair_style kim Sim_LAMMPS_LJcut_AkersonElliott_Alchemy_PbAu\n', 'pair_coeff * * Pb Au\n']",[],OpenKIM,Sim_LAMMPS_LJcut_AkersonElliott_Alchemy_PbAu,"['Pb', 'Au']"
+638,"['pair_style kim Sim_LAMMPS_MEAM_AlmyrasSangiovanniSarakinos_2019_NAlTi__SM_871795249052_000\n', 'pair_coeff * * N Al Ti\n']",[],OpenKIM,Sim_LAMMPS_MEAM_AlmyrasSangiovanniSarakinos_2019_NAlTi__SM_871795249052_000,"['N', 'Al', 'Ti']"
+639,"['pair_style kim Sim_LAMMPS_MEAM_AsadiZaeemNouranian_2015_Cu__SM_239791545509_000\n', 'pair_coeff * * Cu\n']",[],OpenKIM,Sim_LAMMPS_MEAM_AsadiZaeemNouranian_2015_Cu__SM_239791545509_000,['Cu']
+640,"['pair_style kim Sim_LAMMPS_MEAM_AsadiZaeemNouranian_2015_Fe__SM_042630680993_000\n', 'pair_coeff * * Fe\n']",[],OpenKIM,Sim_LAMMPS_MEAM_AsadiZaeemNouranian_2015_Fe__SM_042630680993_000,['Fe']
+641,"['pair_style kim Sim_LAMMPS_MEAM_AsadiZaeemNouranian_2015_Ni__SM_078420412697_000\n', 'pair_coeff * * Ni\n']",[],OpenKIM,Sim_LAMMPS_MEAM_AsadiZaeemNouranian_2015_Ni__SM_078420412697_000,['Ni']
+642,"['pair_style kim Sim_LAMMPS_MEAM_DuLenoskyHennig_2011_Si__SM_662785656123_000\n', 'pair_coeff * * Si\n']",[],OpenKIM,Sim_LAMMPS_MEAM_DuLenoskyHennig_2011_Si__SM_662785656123_000,['Si']
+643,"['pair_style kim Sim_LAMMPS_MEAM_EtesamiAsadi_2018_Cu__SM_316120381362_000\n', 'pair_coeff * * Cu\n']",[],OpenKIM,Sim_LAMMPS_MEAM_EtesamiAsadi_2018_Cu__SM_316120381362_000,['Cu']
+644,"['pair_style kim Sim_LAMMPS_MEAM_EtesamiAsadi_2018_Fe__SM_267016608755_000\n', 'pair_coeff * * Fe\n']",[],OpenKIM,Sim_LAMMPS_MEAM_EtesamiAsadi_2018_Fe__SM_267016608755_000,['Fe']
+645,"['pair_style kim Sim_LAMMPS_MEAM_EtesamiAsadi_2018_Ni__SM_333792531460_000\n', 'pair_coeff * * Ni\n']",[],OpenKIM,Sim_LAMMPS_MEAM_EtesamiAsadi_2018_Ni__SM_333792531460_000,['Ni']
+646,"['pair_style kim Sim_LAMMPS_MEAM_FernandezPascuet_2014_U__SM_176800861722_000\n', 'pair_coeff * * U\n']",[],OpenKIM,Sim_LAMMPS_MEAM_FernandezPascuet_2014_U__SM_176800861722_000,['U']
+647,"['pair_style kim Sim_LAMMPS_MEAM_GaoOterodelaRozaAouadi_2013_AgTaO__SM_485325656366_000\n', 'pair_coeff * * Ag Ta O\n']",[],OpenKIM,Sim_LAMMPS_MEAM_GaoOterodelaRozaAouadi_2013_AgTaO__SM_485325656366_000,"['Ag', 'Ta', 'O']"
+648,"['pair_style kim Sim_LAMMPS_MEAM_HennigLenoskyTrinkle_2008_Ti__SM_318953488749_000\n', 'pair_coeff * * Ti\n']",[],OpenKIM,Sim_LAMMPS_MEAM_HennigLenoskyTrinkle_2008_Ti__SM_318953488749_000,['Ti']
+649,"['pair_style kim Sim_LAMMPS_MEAM_JelinekGrohHorstemeyer_2012_AlSiMgCuFe__SM_656517352485_000\n', 'pair_coeff * * Al Si Mg Cu Fe\n']",[],OpenKIM,Sim_LAMMPS_MEAM_JelinekGrohHorstemeyer_2012_AlSiMgCuFe__SM_656517352485_000,"['Al', 'Si', 'Mg', 'Cu', 'Fe']"
+650,"['pair_style kim Sim_LAMMPS_MEAM_KimJungLee_2009_FeTiC__SM_531038274471_000\n', 'pair_coeff * * Fe Ti C\n']",[],OpenKIM,Sim_LAMMPS_MEAM_KimJungLee_2009_FeTiC__SM_531038274471_000,"['Fe', 'Ti', 'C']"
+651,"['pair_style kim Sim_LAMMPS_MEAM_KoGrabowskiNeugebauer_2015_NiTi__SM_770142935022_000\n', 'pair_coeff * * Ni Ti\n']",[],OpenKIM,Sim_LAMMPS_MEAM_KoGrabowskiNeugebauer_2015_NiTi__SM_770142935022_000,"['Ni', 'Ti']"
+652,"['pair_style kim Sim_LAMMPS_MEAM_LenoskySadighAlonso_2000_Si__SM_622320990752_000\n', 'pair_coeff * * Si\n']",[],OpenKIM,Sim_LAMMPS_MEAM_LenoskySadighAlonso_2000_Si__SM_622320990752_000,['Si']
+653,"['pair_style kim Sim_LAMMPS_MEAM_Lenosky_2017_W__SM_631352869360_000\n', 'pair_coeff * * W\n']",[],OpenKIM,Sim_LAMMPS_MEAM_Lenosky_2017_W__SM_631352869360_000,['W']
+654,"['pair_style kim Sim_LAMMPS_MEAM_LiyanageSeongGonHouze_2014_FeC__SM_652425777808_000\n', 'pair_coeff * * Fe C\n']",[],OpenKIM,Sim_LAMMPS_MEAM_LiyanageSeongGonHouze_2014_FeC__SM_652425777808_000,"['Fe', 'C']"
+655,"['pair_style kim Sim_LAMMPS_MEAM_MaiselKoZhang_2017_VNiTi__SM_971529344487_000\n', 'pair_coeff * * V Ni Ti\n']",[],OpenKIM,Sim_LAMMPS_MEAM_MaiselKoZhang_2017_VNiTi__SM_971529344487_000,"['V', 'Ni', 'Ti']"
+656,"['pair_style kim Sim_LAMMPS_MEAM_ParkFellingerLenosky_2012_Mo__SM_769176993156_000\n', 'pair_coeff * * Mo\n']",[],OpenKIM,Sim_LAMMPS_MEAM_ParkFellingerLenosky_2012_Mo__SM_769176993156_000,['Mo']
+657,"['pair_style kim Sim_LAMMPS_MEAM_ParkFellingerLenosky_2012_Ta__SM_907764821792_000\n', 'pair_coeff * * Ta\n']",[],OpenKIM,Sim_LAMMPS_MEAM_ParkFellingerLenosky_2012_Ta__SM_907764821792_000,['Ta']
+658,"['pair_style kim Sim_LAMMPS_MEAM_ParkFellingerLenosky_2012_W__SM_163270462402_000\n', 'pair_coeff * * W\n']",[],OpenKIM,Sim_LAMMPS_MEAM_ParkFellingerLenosky_2012_W__SM_163270462402_000,['W']
+659,"['pair_style kim Sim_LAMMPS_MEAM_PascuetFernandez_2015_AlU__SM_721930391003_000\n', 'pair_coeff * * Al U\n']",[],OpenKIM,Sim_LAMMPS_MEAM_PascuetFernandez_2015_AlU__SM_721930391003_000,"['Al', 'U']"
+660,"['pair_style kim Sim_LAMMPS_MEAM_PascuetFernandez_2015_Al__SM_811588957187_000\n', 'pair_coeff * * Al\n']",[],OpenKIM,Sim_LAMMPS_MEAM_PascuetFernandez_2015_Al__SM_811588957187_000,['Al']
+661,"['pair_style kim Sim_LAMMPS_MEAM_Wagner_2007_Cu__SM_521856783904_000\n', 'pair_coeff * * Cu\n']",[],OpenKIM,Sim_LAMMPS_MEAM_Wagner_2007_Cu__SM_521856783904_000,['Cu']
+662,"['pair_style kim Sim_LAMMPS_MEAM_Wagner_2007_Ni__SM_168413969663_000\n', 'pair_coeff * * Ni\n']",[],OpenKIM,Sim_LAMMPS_MEAM_Wagner_2007_Ni__SM_168413969663_000,['Ni']
+663,"['pair_style kim Sim_LAMMPS_MEAM_Wagner_2007_SiC__SM_264944083668_000\n', 'pair_coeff * * Si C\n']",[],OpenKIM,Sim_LAMMPS_MEAM_Wagner_2007_SiC__SM_264944083668_000,"['Si', 'C']"
+664,"['pair_style kim Sim_LAMMPS_MEAM_ZhangTrinkle_2016_TiO__SM_513612626462_000\n', 'pair_coeff * * Ti O\n']",[],OpenKIM,Sim_LAMMPS_MEAM_ZhangTrinkle_2016_TiO__SM_513612626462_000,"['Ti', 'O']"
+665,"['pair_style kim Sim_LAMMPS_ModifiedTersoff_ByggmastarHodilleFerro_2018_BeO__SM_305223021383_000\n', 'pair_coeff * * Be O\n']",[],OpenKIM,Sim_LAMMPS_ModifiedTersoff_ByggmastarHodilleFerro_2018_BeO__SM_305223021383_000,"['Be', 'O']"
+666,"['pair_style kim Sim_LAMMPS_ModifiedTersoff_KumagaiIzumiHara_2007_Si__SM_773333226968_000\n', 'pair_coeff * * Si\n']",[],OpenKIM,Sim_LAMMPS_ModifiedTersoff_KumagaiIzumiHara_2007_Si__SM_773333226968_000,['Si']
+667,"['pair_style kim Sim_LAMMPS_ModifiedTersoff_PurjaPunMishin_2017_Si__SM_184524061456_000\n', 'pair_coeff * * Si\n']",[],OpenKIM,Sim_LAMMPS_ModifiedTersoff_PurjaPunMishin_2017_Si__SM_184524061456_000,['Si']
+668,"['pair_style kim Sim_LAMMPS_Polymorphic_BereSerra_2006_GaN__SM_518345582208_000\n', 'pair_coeff * * Ga N\n']",[],OpenKIM,Sim_LAMMPS_Polymorphic_BereSerra_2006_GaN__SM_518345582208_000,"['Ga', 'N']"
+669,"['pair_style kim Sim_LAMMPS_Polymorphic_NordAlbeErhart_2003_GaN__SM_333071728528_000\n', 'pair_coeff * * Ga N\n']",[],OpenKIM,Sim_LAMMPS_Polymorphic_NordAlbeErhart_2003_GaN__SM_333071728528_000,"['Ga', 'N']"
+670,"['pair_style kim Sim_LAMMPS_Polymorphic_Zhou_2004_CuTa__SM_453737875254_000\n', 'pair_coeff * * Cu Ta\n']",[],OpenKIM,Sim_LAMMPS_Polymorphic_Zhou_2004_CuTa__SM_453737875254_000,"['Cu', 'Ta']"
+671,"['pair_style kim Sim_LAMMPS_ReaxFF_AryanpourVanDuinKubicki_2010_FeHO__SM_222964216001_000\n', 'pair_coeff * * Fe H O\n']",[],OpenKIM,Sim_LAMMPS_ReaxFF_AryanpourVanDuinKubicki_2010_FeHO__SM_222964216001_000,"['Fe', 'H', 'O']"
+672,"['pair_style kim Sim_LAMMPS_ReaxFF_ChenowethVanDuinGoddard_2008_CHO__SM_584143153761_000\n', 'pair_coeff * * C H O\n']",[],OpenKIM,Sim_LAMMPS_ReaxFF_ChenowethVanDuinGoddard_2008_CHO__SM_584143153761_000,"['C', 'H', 'O']"
+673,"['pair_style kim Sim_LAMMPS_ReaxFF_ChenowethVanDuinPersson_2008_CHOV__SM_429148913211_000\n', 'pair_coeff * * C H O V\n']",[],OpenKIM,Sim_LAMMPS_ReaxFF_ChenowethVanDuinPersson_2008_CHOV__SM_429148913211_000,"['C', 'H', 'O', 'V']"
+674,"['pair_style kim Sim_LAMMPS_ReaxFF_KeithFantauzziJacob_2010_AuO__SM_974345878378_000\n', 'pair_coeff * * Au O\n']",[],OpenKIM,Sim_LAMMPS_ReaxFF_KeithFantauzziJacob_2010_AuO__SM_974345878378_000,"['Au', 'O']"
+675,"['pair_style kim Sim_LAMMPS_ReaxFF_RaymandVanDuinBaudin_2008_ZnOH__SM_449472104549_000\n', 'pair_coeff * * Zn O H\n']",[],OpenKIM,Sim_LAMMPS_ReaxFF_RaymandVanDuinBaudin_2008_ZnOH__SM_449472104549_000,"['Zn', 'O', 'H']"
+676,"['pair_style kim Sim_LAMMPS_ReaxFF_SinghSrinivasanNeekAmal_2013_CFH__SM_306840588959_000\n', 'pair_coeff * * C F H\n']",[],OpenKIM,Sim_LAMMPS_ReaxFF_SinghSrinivasanNeekAmal_2013_CFH__SM_306840588959_000,"['C', 'F', 'H']"
+677,"['pair_style kim Sim_LAMMPS_ReaxFF_StrachanVanDuinChakraborty_2003_CHNO__SM_107643900657_000\n', 'pair_coeff * * C H N O\n']",[],OpenKIM,Sim_LAMMPS_ReaxFF_StrachanVanDuinChakraborty_2003_CHNO__SM_107643900657_000,"['C', 'H', 'N', 'O']"
+678,"['pair_style kim Sim_LAMMPS_ReaxFF_WeismillerVanDuinLee_2010_BHNO__SM_327381922729_000\n', 'pair_coeff * * B H N O\n']",[],OpenKIM,Sim_LAMMPS_ReaxFF_WeismillerVanDuinLee_2010_BHNO__SM_327381922729_000,"['B', 'H', 'N', 'O']"
+679,"['pair_style kim Sim_LAMMPS_SMTBQ_SallesPolitanoAmzallag_2016_AlO__SM_853967355976_000\n', 'pair_coeff * * Al O\n']",[],OpenKIM,Sim_LAMMPS_SMTBQ_SallesPolitanoAmzallag_2016_AlO__SM_853967355976_000,"['Al', 'O']"
+680,"['pair_style kim Sim_LAMMPS_SMTBQ_SallesPolitanoAmzallag_2016_Al__SM_404097633924_000\n', 'pair_coeff * * Al\n']",[],OpenKIM,Sim_LAMMPS_SMTBQ_SallesPolitanoAmzallag_2016_Al__SM_404097633924_000,['Al']
+681,"['pair_style kim Sim_LAMMPS_SMTBQ_SallesPolitanoAmzallag_2016_TiO__SM_349577644423_000\n', 'pair_coeff * * Ti O\n']",[],OpenKIM,Sim_LAMMPS_SMTBQ_SallesPolitanoAmzallag_2016_TiO__SM_349577644423_000,"['Ti', 'O']"
+682,"['pair_style kim Sim_LAMMPS_SNAP_ChenDengTran_2017_Mo__SM_003882782678_000\n', 'pair_coeff * * Mo\n']",[],OpenKIM,Sim_LAMMPS_SNAP_ChenDengTran_2017_Mo__SM_003882782678_000,['Mo']
+683,"['pair_style kim Sim_LAMMPS_TersoffZBL_DevanathanDiazdelaRubiaWeber_1998_SiC__SM_578912636995_000\n', 'pair_coeff * * Si C\n']",[],OpenKIM,Sim_LAMMPS_TersoffZBL_DevanathanDiazdelaRubiaWeber_1998_SiC__SM_578912636995_000,"['Si', 'C']"
+684,"['pair_style kim Sim_LAMMPS_TersoffZBL_HenrikssonBjorkasNordlund_2013_FeC__SM_473463498269_000\n', 'pair_coeff * * Fe C\n']",[],OpenKIM,Sim_LAMMPS_TersoffZBL_HenrikssonBjorkasNordlund_2013_FeC__SM_473463498269_000,"['Fe', 'C']"
+685,"['pair_style kim Sim_LAMMPS_Vashishta_BranicioRinoGan_2009_InP__SM_090647175366_000\n', 'pair_coeff * * In P\n']",[],OpenKIM,Sim_LAMMPS_Vashishta_BranicioRinoGan_2009_InP__SM_090647175366_000,"['In', 'P']"
+686,"['pair_style kim Sim_LAMMPS_Vashishta_BroughtonMeliVashishta_1997_SiO__SM_422553794879_000\n', 'pair_coeff * * Si O\n']",[],OpenKIM,Sim_LAMMPS_Vashishta_BroughtonMeliVashishta_1997_SiO__SM_422553794879_000,"['Si', 'O']"
+687,"['pair_style kim Sim_LAMMPS_Vashishta_NakanoKaliaVashishta_1994_SiO__SM_503555646986_000\n', 'pair_coeff * * Si O\n']",[],OpenKIM,Sim_LAMMPS_Vashishta_NakanoKaliaVashishta_1994_SiO__SM_503555646986_000,"['Si', 'O']"
+688,"['pair_style kim Sim_LAMMPS_Vashishta_VashishtaKaliaNakano_2007_SiC__SM_196548226654_000\n', 'pair_coeff * * Si C\n']",[],OpenKIM,Sim_LAMMPS_Vashishta_VashishtaKaliaNakano_2007_SiC__SM_196548226654_000,"['Si', 'C']"
+689,"['pair_style kim Sim_LAMMPS_Vashishta_VashishtaKaliaRino_1990_SiO__SM_887826436433_000\n', 'pair_coeff * * Si O\n']",[],OpenKIM,Sim_LAMMPS_Vashishta_VashishtaKaliaRino_1990_SiO__SM_887826436433_000,"['Si', 'O']"
