@@ -1,6 +1,6 @@
 #!/bin/bash
-mkfifo sxctrl
-mkfifo sxres
+mkfifo sxctrl || true
+mkfifo sxres || true
 export SX_EXT_CTRL=sxctrl
 export SX_EXT_RES=sxres
 
@@ -14,4 +14,5 @@ fi
 mpiexec -n $NCORES sphinx --opts > sphinx.log
 mpiexec -n $NCORES sphinx >> sphinx.log
 
-rm sxctrl sxres
+[ -f sxres ] && rm sxres
+[ -f sxctrl ] && rm sxctrl
