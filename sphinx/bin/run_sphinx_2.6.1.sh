@@ -5,5 +5,5 @@ export SX_EXT_CTRL=sxctrl
 export SX_EXT_RES=sxres
 sphinx --opts > sphinx.log
 sphinx >> sphinx.log
-[ -f sxres ] && rm sxres
-[ -f sxctrl ] && rm sxctrl
+if test -f "sxres"; then rm "sxres"; fi
+if test -f "sxctrl"; then rm "sxctrl"; fi
