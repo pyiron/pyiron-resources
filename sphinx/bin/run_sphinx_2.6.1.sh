@@ -1,8 +1,9 @@
 #!/bin/bash
-mkfifo sxctrl
-mkfifo sxres
+mkfifo sxctrl || true
+mkfifo sxres || true
 export SX_EXT_CTRL=sxctrl
 export SX_EXT_RES=sxres
 sphinx --opts > sphinx.log
 sphinx >> sphinx.log
-rm sxres sxctrl
+[ -f sxres ] && rm sxres
+[ -f sxctrl ] && rm sxctrl
