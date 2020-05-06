@@ -14,5 +14,5 @@ fi
 mpiexec -n $NCORES sphinx --opts > sphinx.log
 mpiexec -n $NCORES sphinx >> sphinx.log
 
-[ -f sxres ] && rm sxres
-[ -f sxctrl ] && rm sxctrl
+if test -f "sxres"; then rm "sxres"; fi
+if test -f "sxctrl"; then rm "sxctrl"; fi
