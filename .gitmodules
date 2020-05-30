@@ -1,3 +1,0 @@
-[submodule "gpaw/potentials"]
-	path = gpaw/potentials
-	url = https://github.com/pyiron/gpaw_setups.git
