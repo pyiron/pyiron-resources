@@ -32,7 +32,7 @@ matrix:
       deploy:
         - provider: releases
           api_key: $GH_TOKEN
-          file: "build/resources-${PYIRON_DATA_VER}.tar.gz"
+          file: "build/resources-${RELEASEVER}.tar.gz"
           skip_cleanup: true
           on:
             branch: master
