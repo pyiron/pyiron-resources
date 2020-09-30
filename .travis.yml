@@ -12,7 +12,10 @@ matrix:
         - wget https://anaconda.org/conda-forge/sphinxdft-data/${SPHINXDFT_DATA_VER}/download/noarch/sphinxdft-data-${SPHINXDFT_DATA_VER}-${SPHINXDFT_DATA_BUILD}.tar.bz2 -O sphinxdft-data.tar.bz2
         - wget https://anaconda.org/conda-forge/gpaw-data/${GPAW_DATA_VER}/download/linux-64/gpaw-data-${GPAW_DATA_VER}-${GPAW_DATA_BUILD}.tar.bz2 -O gpaw-data.tar.bz2
         - wget https://anaconda.org/conda-forge/iprpy-data/${IPRPY_DATA_VER}/download/noarch/iprpy-data-${IPRPY_DATA_VER}-${IPRPY_DATA_BUILD}.tar.bz2 -O iprpy-data.tar.bz2
-        - tar -xjvf *.tar.bz2
+        - tar -xjvf pyiron-data.tar.bz2
+        - tar -xjvf sphinxdft-data.tar.bz2
+        - tar -xjvf gpaw-data.tar.bz2
+        - tar -xjvf iprpy-data.tar.bz2
         - mv pyiron-data/share/pyiron resources
         - mv iprpy-data/share/iprpy/potential_LAMMPS resources/lammps/potentials/NISTiprpy
         - rm resources/lammps/potentials/NISTiprpy/*.json resources/lammps/potentials/NISTiprpy/*.rst resources/lammps/potentials/NISTiprpy/*.ipynb
