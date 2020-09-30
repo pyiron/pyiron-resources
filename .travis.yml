@@ -26,7 +26,7 @@ matrix:
         - mkdir -p resources/gpaw
         - mv gpaw-data/share/gpaw resources/gpaw/potentials
         - mv sphinxdft-data/share/sphinxdft/jth-gga-pbe resources/sphinx/potentials
-        - tar -zcvf resources-${PYIRON_DATA_VER}.tar.gz resources
+        - tar -zcvf resources-${RELEASEVER}.tar.gz resources
         - cd ..
         - git tag ${RELEASEVER}
       deploy:
