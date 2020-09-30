@@ -1,0 +1,30 @@
+matrix:
+  include:
+    - name: linux_3_8
+      if: tag IS blank
+      os: linux
+      language: python
+      env: PYIRON_DATA_VER="0.0.2" PYIRON_DATA_BUILD="1" SPHINXDFT_DATA_VER="0.0.1" SPHINXDFT_DATA_BUILD="0" GPAW_DATA_VER="0.9.20000" GPAW_DATA_BUILD="0" IPRPY_DATA_VER="0.9.1" IPRPY_DATA_BUILD="0"
+      script:
+        - mkdir build
+        - cd build
+        - wget https://anaconda.org/conda-forge/pyiron-data/${PYIRON_DATA_VER}/download/noarch/pyiron-data-${PYIRON_DATA_VER}-${PYIRON_DATA_BUILD}.tar.bz2 -O pyiron-data.tar.bz2
+        - wget https://anaconda.org/conda-forge/sphinxdft-data/${SPHINXDFT_DATA_VER}/download/noarch/sphinxdft-data-${SPHINXDFT_DATA_VER}-${SPHINXDFT_DATA_BUILD}.tar.bz2 -O sphinxdft-data.tar.bz2
+        - wget https://anaconda.org/conda-forge/gpaw-data/${GPAW_DATA_VER}/download/linux-64/gpaw-data-${GPAW_DATA_VER}-${GPAW_DATA_BUILD}.tar.bz2 -O gpaw-data.tar.bz2
+        - wget https://anaconda.org/conda-forge/iprpy-data/${IPRPY_DATA_VER}/download/noarch/iprpy-data-${IPRPY_DATA_VER}-${IPRPY_DATA_BUILD}.tar.bz2 -O iprpy-data.tar.bz2
+        - tar -xjvf *.tar.bz2
+        - mv pyiron-data/share/pyiron resources
+        - mv iprpy-data/share/iprpy/potential_LAMMPS resources/lammps/potentials/NISTiprpy
+        - rm resources/lammps/potentials/NISTiprpy/*.json resources/lammps/potentials/NISTiprpy/*.rst resources/lammps/potentials/NISTiprpy/*.ipynb
+        - mkdir -p resources/gpaw
+        - mv gpaw-data/share/gpaw resources/gpaw/potentials
+        - mv sphinxdft-data/share/sphinxdft/jth-gga-pbe resources/sphinx/potentials
+        - tar -zcvf resources-${PYIRON_DATA_VER}.tar.gz resources
+        - cd ..
+      deploy:
+        - provider: releases
+          api_key: $GH_TOKEN
+          file: "build/resources-${PYIRON_DATA_VER}.tar.gz"
+          skip_cleanup: true
+          on:
+            branch: master
