@@ -12,6 +12,7 @@ matrix:
         - wget https://anaconda.org/conda-forge/sphinxdft-data/${SPHINXDFT_DATA_VER}/download/noarch/sphinxdft-data-${SPHINXDFT_DATA_VER}-${SPHINXDFT_DATA_BUILD}.tar.bz2 -O sphinxdft-data.tar.bz2
         - wget https://anaconda.org/conda-forge/gpaw-data/${GPAW_DATA_VER}/download/linux-64/gpaw-data-${GPAW_DATA_VER}-${GPAW_DATA_BUILD}.tar.bz2 -O gpaw-data.tar.bz2
         - wget https://anaconda.org/conda-forge/iprpy-data/${IPRPY_DATA_VER}/download/noarch/iprpy-data-${IPRPY_DATA_VER}-${IPRPY_DATA_BUILD}.tar.bz2 -O iprpy-data.tar.bz2
+        - mkdir pyiron-data sphinxdft-data gpaw-data iprpy-data
         - tar -xjvf pyiron-data.tar.bz2 -C pyiron-data
         - tar -xjvf sphinxdft-data.tar.bz2 -C sphinxdft-data
         - tar -xjvf gpaw-data.tar.bz2 -C gpaw-data
