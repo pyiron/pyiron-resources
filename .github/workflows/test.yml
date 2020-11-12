@@ -1,0 +1,44 @@
+name: Test
+
+on:
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build_linux:
+    name: Linux 
+    runs-on: ubuntu-latest
+    env: 
+      RELEASEVER: "0.0.3"
+      SPHINXDFT_DATA_VER: "0.0.1"
+      SPHINXDFT_DATA_BUILD: "0"
+      GPAW_DATA_VER: "0.9.20000"
+      GPAW_DATA_BUILD: "0"
+      IPRPY_DATA_VER: "0.9.1"
+      IPRPY_DATA_BUILD: "0"
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build Package
+      run: |
+        mkdir build
+        cd build
+        wget https://anaconda.org/conda-forge/sphinxdft-data/${SPHINXDFT_DATA_VER}/download/noarch/sphinxdft-data-${SPHINXDFT_DATA_VER}-${SPHINXDFT_DATA_BUILD}.tar.bz2 -O sphinxdft-data.tar.bz2
+        wget https://anaconda.org/conda-forge/gpaw-data/${GPAW_DATA_VER}/download/linux-64/gpaw-data-${GPAW_DATA_VER}-${GPAW_DATA_BUILD}.tar.bz2 -O gpaw-data.tar.bz2
+        wget https://anaconda.org/conda-forge/iprpy-data/${IPRPY_DATA_VER}/download/noarch/iprpy-data-${IPRPY_DATA_VER}-${IPRPY_DATA_BUILD}.tar.bz2 -O iprpy-data.tar.bz2
+        mkdir sphinxdft-data gpaw-data iprpy-data resources
+        tar -xjvf sphinxdft-data.tar.bz2 -C sphinxdft-data
+        tar -xjvf gpaw-data.tar.bz2 -C gpaw-data
+        tar -xjvf iprpy-data.tar.bz2 -C iprpy-data
+        mv ../atomistics resources
+        mv ../interactive resources
+        mv ../lammps resources
+        mv ../sphinx resources
+        mv ../thermodynamics resources
+        mv ../LICENSE resources
+        mv iprpy-data/share/iprpy/potential_LAMMPS resources/lammps/potentials/NISTiprpy
+        rm resources/lammps/potentials/NISTiprpy/*.json resources/lammps/potentials/NISTiprpy/*.rst resources/lammps/potentials/NISTiprpy/*.ipynb
+        mkdir -p resources/gpaw
+        mv gpaw-data/share/gpaw resources/gpaw/potentials
+        mv sphinxdft-data/share/sphinxdft/jth-gga-pbe resources/sphinx/potentials
+        tar -zcvf resources-${RELEASEVER}.tar.gz resources
