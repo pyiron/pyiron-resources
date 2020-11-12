@@ -37,7 +37,7 @@ jobs:
         mv ../sphinx resources
         mv ../thermodynamics resources
         mv ../LICENSE resources
-        mv iprpy-data/share/iprpy/potential_LAMMPS resources/lammps/potentials/NISTiprpy
+        mv iprpy/share/iprpy/potential_LAMMPS resources/lammps/potentials/potential_LAMMPS
         rm resources/lammps/potentials/NISTiprpy/*.json resources/lammps/potentials/NISTiprpy/*.rst resources/lammps/potentials/NISTiprpy/*.ipynb
         mkdir -p resources/gpaw
         mv gpaw-data/share/gpaw resources/gpaw/potentials
