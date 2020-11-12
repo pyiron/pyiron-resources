@@ -9,12 +9,12 @@ jobs:
     name: Linux 
     runs-on: ubuntu-latest
     env: 
-      RELEASEVER: "0.0.4"
+      RELEASEVER: "0.0.5"
       SPHINXDFT_DATA_VER: "0.0.1"
       SPHINXDFT_DATA_BUILD: "0"
       GPAW_DATA_VER: "0.9.20000"
       GPAW_DATA_BUILD: "0"
-      IPRPY_DATA_VER: "0.9.1"
+      IPRPY_DATA_VER: "2020.11.11"
       IPRPY_DATA_BUILD: "0"
 
     steps:
