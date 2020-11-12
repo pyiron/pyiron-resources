@@ -38,6 +38,7 @@ jobs:
         mv ../thermodynamics resources
         mv ../LICENSE resources
         mkdir resources/lammps/potentials
+        mv iprpy-data/share/iprpy/potentials_lammps.csv resources/lammps/potentials/potentials_lammps.csv
         mv iprpy-data/share/iprpy/potential_LAMMPS resources/lammps/potentials/potential_LAMMPS
         find resources/lammps/potentials -name "*.json" -exec rm -rf {} \;
         find resources/lammps/potentials -name "*.rst" -exec rm -rf {} \;
