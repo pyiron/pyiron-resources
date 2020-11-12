@@ -39,7 +39,9 @@ jobs:
         mv ../LICENSE resources
         mkdir resources/lammps/potentials
         mv iprpy-data/share/iprpy/potential_LAMMPS resources/lammps/potentials/potential_LAMMPS
-        rm resources/lammps/potentials/NISTiprpy/*.json resources/lammps/potentials/NISTiprpy/*.rst resources/lammps/potentials/NISTiprpy/*.ipynb
+        find resources/lammps/potentials -name "*.json" -exec rm -rf {} \;
+        find resources/lammps/potentials -name "*.rst" -exec rm -rf {} \;
+        find resources/lammps/potentials -name "*.ipynb" -exec rm -rf {} \;
         mkdir -p resources/gpaw
         mv gpaw-data/share/gpaw resources/gpaw/potentials
         mv sphinxdft-data/share/sphinxdft/jth-gga-pbe resources/sphinx/potentials
