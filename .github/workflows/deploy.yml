@@ -14,7 +14,8 @@ jobs:
       SPHINXDFT_DATA_BUILD: "0"
       GPAW_DATA_VER: "0.9.20000"
       GPAW_DATA_BUILD: "0"
-      IPRPY_DATA_VER: "2020.11.11-pyhd3deb0d"
+      IPRPY_DATA_VER: "2020.11.11"
+      IPRPY_DATA_HASH: "pyhd3deb0d"
       IPRPY_DATA_BUILD: "0"
 
     steps:
@@ -25,7 +26,7 @@ jobs:
         cd build
         wget https://anaconda.org/conda-forge/sphinxdft-data/${SPHINXDFT_DATA_VER}/download/noarch/sphinxdft-data-${SPHINXDFT_DATA_VER}-${SPHINXDFT_DATA_BUILD}.tar.bz2 -O sphinxdft-data.tar.bz2
         wget https://anaconda.org/conda-forge/gpaw-data/${GPAW_DATA_VER}/download/linux-64/gpaw-data-${GPAW_DATA_VER}-${GPAW_DATA_BUILD}.tar.bz2 -O gpaw-data.tar.bz2
-        wget https://anaconda.org/conda-forge/iprpy-data/${IPRPY_DATA_VER}/download/noarch/iprpy-data-${IPRPY_DATA_VER}-${IPRPY_DATA_BUILD}.tar.bz2 -O iprpy-data.tar.bz2
+        wget https://anaconda.org/conda-forge/iprpy-data/${IPRPY_DATA_VER}/download/noarch/iprpy-data-${IPRPY_DATA_VER}-${IPRPY_DATA_HASH}-${IPRPY_DATA_BUILD}.tar.bz2 -O iprpy-data.tar.bz2
         mkdir sphinxdft-data gpaw-data iprpy-data resources
         tar -xjvf sphinxdft-data.tar.bz2 -C sphinxdft-data
         tar -xjvf gpaw-data.tar.bz2 -C gpaw-data
