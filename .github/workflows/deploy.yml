@@ -9,7 +9,7 @@ jobs:
     name: Linux 
     runs-on: ubuntu-latest
     env: 
-      RELEASEVER: "0.0.8"
+      RELEASEVER: "0.0.9"
       SPHINXDFT_DATA_VER: "0.0.1"
       SPHINXDFT_DATA_BUILD: "0"
       GPAW_DATA_VER: "0.9.20000"
@@ -31,9 +31,12 @@ jobs:
         tar -xjvf sphinxdft-data.tar.bz2 -C sphinxdft-data
         tar -xjvf gpaw-data.tar.bz2 -C gpaw-data
         tar -xjvf iprpy-data.tar.bz2 -C iprpy-data
+        mv ../atomicrex resources
         mv ../atomistics resources
         mv ../interactive resources
         mv ../lammps resources
+        mv ../mlip resources
+        mv ../runner resources
         mv ../sphinx resources
         mv ../thermodynamics resources
         mv ../LICENSE resources
