@@ -9,13 +9,13 @@ jobs:
     name: Linux 
     runs-on: ubuntu-latest
     env: 
-      RELEASEVER: "0.0.7"
+      RELEASEVER: "0.0.8"
       SPHINXDFT_DATA_VER: "0.0.1"
       SPHINXDFT_DATA_BUILD: "0"
       GPAW_DATA_VER: "0.9.20000"
       GPAW_DATA_BUILD: "0"
-      IPRPY_DATA_VER: "2020.11.20"
-      IPRPY_DATA_HASH: "pyhd3deb0d"
+      IPRPY_DATA_VER: "2021.2.23"
+      IPRPY_DATA_HASH: "pyh44b312d"
       IPRPY_DATA_BUILD: "0"
 
     steps:
