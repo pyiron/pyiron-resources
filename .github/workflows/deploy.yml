@@ -9,7 +9,7 @@ jobs:
     name: Linux 
     runs-on: ubuntu-latest
     env: 
-      RELEASEVER: "0.0.9"
+      RELEASEVER: "0.0.10"
       SPHINXDFT_DATA_VER: "0.0.1"
       SPHINXDFT_DATA_BUILD: "0"
       GPAW_DATA_VER: "0.9.20000"
@@ -37,6 +37,7 @@ jobs:
         mv ../lammps resources
         mv ../mlip resources
         mv ../runner resources
+        mv ../pacemaker resources
         mv ../sphinx resources
         mv ../thermodynamics resources
         mv ../LICENSE resources
