@@ -1,2 +1,2 @@
 #!/bin/bash
-DAMASK_grid -l tensionX.load -g damask.vtr
+mpiexec -n 1 DAMASK_grid -l tensionX.load -g damask.vtr
