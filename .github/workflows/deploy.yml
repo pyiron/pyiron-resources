@@ -9,7 +9,7 @@ jobs:
     name: Linux 
     runs-on: ubuntu-latest
     env: 
-      RELEASEVER: "0.0.14"
+      RELEASEVER: "0.0.15"
       SPHINXDFT_DATA_VER: "0.0.1"
       SPHINXDFT_DATA_BUILD: "0"
       GPAW_DATA_VER: "0.9.20000"
