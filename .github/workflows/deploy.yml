@@ -9,7 +9,7 @@ jobs:
     name: Linux
     runs-on: ubuntu-latest
     env:
-      RELEASEVER: "0.0.18"
+      RELEASEVER: "0.0.19"
       SPHINXDFT_DATA_VER: "0.0.1"
       SPHINXDFT_DATA_BUILD: "0"
       GPAW_DATA_VER: "0.9.20000"
@@ -41,6 +41,8 @@ jobs:
         mv ../sphinx resources
         mv ../thermodynamics resources
         mv ../LICENSE resources
+        mv ../damask resources
+        mv ../templates resources
         mkdir resources/lammps/potentials
         mv iprpy-data/share/iprpy/potentials_lammps.csv resources/lammps/potentials/potentials_lammps.csv
         mv iprpy-data/share/iprpy/potential_LAMMPS resources/lammps/potentials/potential_LAMMPS
@@ -69,5 +71,5 @@ jobs:
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: build/resources-${{ env.RELEASEVER }}.tar.gz
-        asset_name: resources-${{ env.RELEASEVER }}.tar.gz
+        asset_name: resources.tar.gz
         asset_content_type: application/zip
