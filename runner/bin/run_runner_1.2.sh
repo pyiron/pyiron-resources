@@ -1,8 +1,5 @@
-#!/bin/bash
-RuNNer.serial.x
-sed -i 's/runner_mode 1/runner_mode 2/g' input.nn
-RuNNer.serial.x
-sed -i 's/runner_mode 2/runner_mode 3/g' input.nn
-OLD=$(ls optweights.*.out)
-TMP=${OLD/opt/}
-mv $OLD ${TMP/out/data}
+#!/bin/sh
+MODE=$(awk '$1 == "runner_mode"{print $2; exit}' input.nn)
+RuNNer.serial.x > mode${MODE}.out
+
+
