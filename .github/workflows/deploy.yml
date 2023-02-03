@@ -2,14 +2,14 @@ name: Deploy
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build_linux:
     name: Linux
     runs-on: ubuntu-latest
     env:
-      RELEASEVER: "0.0.20"
+      RELEASEVER: "0.0.21"
       SPHINXDFT_DATA_VER: "0.0.1"
       SPHINXDFT_DATA_BUILD: "0"
       GPAW_DATA_VER: "0.9.20000"
