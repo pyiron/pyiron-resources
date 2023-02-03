@@ -14,8 +14,8 @@ jobs:
       SPHINXDFT_DATA_BUILD: "0"
       GPAW_DATA_VER: "0.9.20000"
       GPAW_DATA_BUILD: "0"
-      IPRPY_DATA_VER: "2021.2.23"
-      IPRPY_DATA_HASH: "pyh44b312d"
+      IPRPY_DATA_VER: "2022.11.02"
+      IPRPY_DATA_HASH: "pyhd8ed1ab"
       IPRPY_DATA_BUILD: "0"
 
     steps:
