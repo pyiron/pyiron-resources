@@ -20,6 +20,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - uses: awalsh128/cache-apt-pkgs-action@latest
+      with:
+        packages: conda-package-handling
+        version: 1.0
     - name: Build Package
       run: |
         mkdir build
