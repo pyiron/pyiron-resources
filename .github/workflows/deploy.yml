@@ -31,7 +31,7 @@ jobs:
         tar -xjvf sphinxdft-data.tar.bz2 -C sphinxdft-data
         tar -xjvf gpaw-data.tar.bz2 -C gpaw-data
         cph extract iprpy-data.conda
-	mv iprpy-data-* iprpy-data
+        mv iprpy-data-* iprpy-data
         mv ../atomicrex resources
         mv ../atomistics resources
         mv ../interactive resources
