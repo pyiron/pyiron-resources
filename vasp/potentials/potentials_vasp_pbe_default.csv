@@ -5,7 +5,7 @@ Al,Al-gga-pbe
 Am,Am-gga-pbe
 Ar,Ar-gga-pbe
 As,As-gga-pbe
-At,At_d-gga-pbe
+At,At-gga-pbe
 Au,Au-gga-pbe
 B,B-gga-pbe
 Ba,Ba_sv-gga-pbe
@@ -89,7 +89,7 @@ Tl,Tl_d-gga-pbe
 Tm,Tm_3-gga-pbe
 U,U-gga-pbe
 V,V_sv-gga-pbe
-W,W_pv-gga-pbe
+W,W_sv-gga-pbe
 Xe,Xe-gga-pbe
 Y,Y_sv-gga-pbe
 Yb,Yb_2-gga-pbe
