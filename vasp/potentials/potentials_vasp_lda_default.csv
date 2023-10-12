@@ -5,7 +5,7 @@ Al,Al-lda
 Am,Am-lda
 Ar,Ar-lda
 As,As-lda
-At,At_d-lda
+At,At-lda
 Au,Au-lda
 B,B-lda
 Ba,Ba_sv-lda
@@ -89,7 +89,7 @@ Tl,Tl_d-lda
 Tm,Tm_3-lda
 U,U-lda
 V,V_sv-lda
-W,W_pv-lda
+W,W_sv-lda
 Xe,Xe-lda
 Y,Y_sv-lda
 Yb,Yb_2-lda
