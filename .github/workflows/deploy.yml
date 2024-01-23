@@ -2,14 +2,14 @@ name: Deploy
 
 on:
   push:
-    branches: [ main ]
+    tags:
+      - "*.*.*"
 
 jobs:
   build_linux:
     name: Linux
     runs-on: ubuntu-latest
     env:
-      RELEASEVER: "0.0.25"
       SPHINXDFT_DATA_VER: "0.0.1"
       SPHINXDFT_DATA_BUILD: "0"
       GPAW_DATA_VER: "0.9.20000"
@@ -55,24 +55,9 @@ jobs:
         mkdir -p resources/gpaw
         mv gpaw-data/share/gpaw resources/gpaw/potentials
         mv sphinxdft-data/share/sphinxdft/jth-gga-pbe resources/sphinx/potentials
-        tar -zcvf resources-${RELEASEVER}.tar.gz resources
-    - name: create release
-      id: create_release
-      uses: actions/create-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        tar -zcvf resources.tar.gz resources
+    - name: Release
+      uses: softprops/action-gh-release@v1
+      if: startsWith(github.ref, 'refs/tags/')
       with:
-        tag_name: ${{ env.RELEASEVER }}
-        release_name: Release ${{ env.RELEASEVER }}
-        draft: false
-        prerelease: false
-    - name: Upload Release Asset
-      id: upload-release-asset
-      uses: actions/upload-release-asset@v1.0.1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: build/resources-${{ env.RELEASEVER }}.tar.gz
-        asset_name: resources.tar.gz
-        asset_content_type: application/zip
+        files: build/resources.tar.gz

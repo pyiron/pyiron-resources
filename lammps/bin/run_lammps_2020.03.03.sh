@@ -1,2 +1,2 @@
 #!/bin/bash
-exec lmp_serial -in control.inp;
+mpiexec -n 1 --oversubscribe lmp_mpi -in control.inp;
