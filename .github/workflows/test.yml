@@ -9,7 +9,6 @@ jobs:
     name: Linux
     runs-on: ubuntu-latest
     env:
-      RELEASEVER: "0.0.25"
       SPHINXDFT_DATA_VER: "0.0.1"
       SPHINXDFT_DATA_BUILD: "0"
       GPAW_DATA_VER: "0.9.20000"
@@ -35,7 +34,6 @@ jobs:
         tar -xjvf gpaw-data.tar.bz2 -C gpaw-data
         cph extract iprpy-data.conda
         mv ../atomicrex resources
-        mv ../atomistics resources
         mv ../interactive resources
         mv ../lammps resources
         mv ../mlip resources
@@ -56,4 +54,4 @@ jobs:
         mkdir -p resources/gpaw
         mv gpaw-data/share/gpaw resources/gpaw/potentials
         mv sphinxdft-data/share/sphinxdft/jth-gga-pbe resources/sphinx/potentials
-        tar -zcvf resources-${RELEASEVER}.tar.gz resources
+        tar -zcvf resources.tar.gz resources
