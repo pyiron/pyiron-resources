@@ -8,8 +8,12 @@ if [ ! -z $2 ]; then
 	SX_THREADS=$2
 	NCORES=$(echo "$1/$SX_THREADS" | bc)
 	export SX_THREADS
+elif [ ! -z $PYIRON_THREADS ]; then
+	SX_THREADS=$PYIRON_THREADS
+	NCORES=$(echo "$PYIRON_CORES/$SX_THREADS" | bc)
+        export SX_THREADS
 else
-	NCORES=$1
+	NCORES="${PYIRON_CORES:=$1}"
 fi
 mpiexec -n $NCORES sphinx --opts > sphinx.log
 mpiexec -n $NCORES sphinx >> sphinx.log
