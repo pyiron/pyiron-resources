@@ -44,7 +44,6 @@ jobs:
         mv ../thermodynamics resources
         mv ../LICENSE resources
         mv ../damask resources
-        mv ../templates resources
         mkdir resources/lammps/potentials
         mv iprpy-data/share/iprpy/potentials_lammps.csv resources/lammps/potentials/potentials_lammps.csv
         mv iprpy-data/share/iprpy/potential_LAMMPS resources/lammps/potentials/potential_LAMMPS
