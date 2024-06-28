@@ -1,2 +1,2 @@
 #!/bin/bash
-mpiexec -n $1 lmp_mpi -in control.inp
+mpiexec -n ${PYIRON_CORES:=$1} lmp_mpi -in control.inp

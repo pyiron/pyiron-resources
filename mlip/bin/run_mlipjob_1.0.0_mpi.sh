@@ -1,2 +1,2 @@
 #!/bin/bash
-mpiexec -n $1 mlp run mlip.ini --filename=structure.cfg
+mpiexec -n ${PYIRON_CORES:=$1} mlp run mlip.ini --filename=structure.cfg
